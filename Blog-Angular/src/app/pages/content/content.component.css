@@ -26,3 +26,28 @@
     margin-left: 15px;
     font-size: 1.2em;
 }
+
+.back-button {
+    padding: 10px 20px;
+    background-color: var(--cor-primaria);
+    color: var(--cor-clara); 
+    border: none;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-flex; 
+    align-items: center; 
+    margin: 20px;
+}
+
+.back-button i {
+    margin-right: 10px; 
+    background-color: var(--cor-primaria); 
+}
+
+.back-button:hover {
+    background-color: var(--cor-secundaria); /* Cor do botão no hover */
+    cursor: pointer;
+}
+

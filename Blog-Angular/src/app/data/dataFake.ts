@@ -3,54 +3,54 @@ export const dataFake=[
         "Id":"1",
         "photo":"https://wallpapercave.com/wp/wp7250087.jpg",
         "title":"Projeto de Gerenciamento de Consultórios Médicos",
-        "description":"Este sistema foi feito para a matéria de Programação Orientada Pa Objetos, do curso de ADS que estou cursando no IFTM. Este projeto foi feito em dupla e durante todo o semestre conforme aprendiamos sobre os conceitos de POO como abstração, encapsulamento, polimorfismo e herança. Foi desenvolvido completamente em Java."
+        "description":"Este sistema foi feito para a matéria de Programação Orientada Pa Objetos, do curso de ADS que estou cursando no IFTM. Este projeto foi feito em dupla e durante todo o semestre conforme aprendiamos sobre os conceitos de POO como abstração, encapsulamento, polimorfismo e herança. Foi desenvolvido completamente em Java. https://github.com/NahNathan/iftm-consultorio-medico-2023-01"
     },
     {
         "Id":"2",
         "photo":"https://raw.githubusercontent.com/NahNathan/Emprestimo-de-Chaves/main/Doc/README_assets/insert_pg.png",
         "title":"Sistema de Empréstimo de Chaves",
-        "description":"Projeto para a disciplina de Desenvolvimento de Aplicações Web"
+        "description":"Projeto para a disciplina de Desenvolvimento de Aplicações Web https://github.com/NahNathan/Emprestimo-de-Chaves"
     },
     {
         "Id":"3",
-        "photo":"https://t.ctcdn.com.br/I-Nm-UiruDNAkdQayP4pGO5wx0Q=/1200x675/smart/i598772.jpeg",
+        "photo":"https://i.imgur.com/kLq7hTK.png",
         "title":"Jeff Imóveis, um sistema kotlin de gerenciamento de imóveis feito para uma prova",
-        "description":"Projeto feito em dupla para a disciplina de Programação de Dispositivos Móveis"
+        "description":"Projeto feito em dupla para a disciplina de Programação de Dispositivos Móveis. https://github.com/NahNathan/Jeff-Imoveis"
     },
     {
         "Id":"4",
-        "photo":"https://i.makeagif.com/media/3-22-2021/qrIh8U.gif",
+        "photo":"https://i.imgur.com/802ZQgU.png",
         "title":"Pokédex",
-        "description":"Um projeto clássico para vários desenvolvedores"
+        "description":"Um projeto clássico para vários desenvolvedores. Este projeto foi desenvolvido em Angular e seu principal objetivo foi aprender a como utilizar e consumir APIs externas. https://github.com/NahNathan/Pokedex"
     },
     {
         "Id":"5",
-        "photo":"https://i.makeagif.com/media/3-22-2021/qrIh8U.gif",
+        "photo":"https://i.imgur.com/2OyDqSe.png",
         "title":"Campo Minado Mobile em Kotlin",
-        "description":"Um joguinho legal em Kotlin"
+        "description":"Um joguinho legal em Kotlin. https://github.com/NahNathan/Campo-Minado-Mobile"
     },
     {
         "Id":"6",
         "photo":"https://i.imgur.com/xg7WO8X.png",
         "title":"Night City Tarot",
-        "description":"Apenas"
+        "description":"Apenas. https://github.com/NahNathan/Night_City_Tarot"
     },
     {
         "Id":"7",
         "photo":"https://i.imgur.com/QAvFKfI.png",
         "title":"NatCursos",
-        "description":"Um projeto simples que fiz para estudar aspectos e conceitos do framework Svelte"
+        "description":"Um projeto simples que fiz para estudar aspectos e conceitos do framework Svelte. https://github.com/NahNathan/NatCursos"
     },
     {
         "Id":"8",
         "photo":"https://i.imgur.com/B8sTUFS.png",
         "title":"Imagens Responsivas",
-        "description":"Um projeto simples para estudar vários conceitos de javascrpit e um efeito visual muito interessante"
+        "description":"Um projeto simples para estudar vários conceitos de javascrpit e um efeito visual muito interessante. https://github.com/NahNathan/Imagens_Responsivas"
     },
     {
         "Id":"9",
-        "photo":"https://i.makeagif.com/media/3-22-2021/qrIh8U.gif",
+        "photo":"https://i.imgur.com/wcv5RZK.png",
         "title":"Jogo da Velha",
-        "description":"Um dos meus primeiros projetos em Angular, um simples jogo da velha que explora vários conceitos interessantes e importantes da linguagem"
+        "description":"Um dos meus primeiros projetos em Angular, um simples jogo da velha que explora vários conceitos interessantes e importantes do framework. https://github.com/NahNathan/Jogo_Da_Velha_Angular"
     }
 ]
