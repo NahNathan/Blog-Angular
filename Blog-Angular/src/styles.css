@@ -1,9 +1,21 @@
+:root {
+    --cor-fundo: #0F0F0F;
+    --cor-primaria: #008170;
+    --cor-secundaria: #005B41;
+    --cor-escura: #232D3F;
+    --cor-clara: #D5DFD5; 
+}
+
+hr{
+    border-color: var(--cor-primaria);
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #111;
-    color: aliceblue;
+    background-color: var(--cor-fundo);
+    color: var(--cor-clara);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 

@@ -5,8 +5,14 @@
 
 .container_menu-title>h1 {
     margin: 15px;
-    color: aliceblue;
     font-size: 100px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+.container_menu-title>h2 {
+    margin: 15px;
     font-weight: bolder;
     display: flex;
     justify-content: center;
