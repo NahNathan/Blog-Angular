@@ -1,8 +1,7 @@
-.container__big-card{
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 450px;
-    height: 400px;
+.container__big-card {
+    width: 100%; /* Use 100% para ser responsivo */
+    max-width: 450px; /* Largura máxima do card */
+    height: auto; /* Altura automática para acomodar o conteúdo */
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -10,20 +9,17 @@
     padding: 10px;
 }
 
-.big-card__title > h1{
-    font-size: 20px;
+.big-card__title > h1 {
+    font-size: 20px; /* Ajuste conforme necessário */
     margin-top: 15px;
 }
 
-.big-card__description{
-    margin-top: 10px;
-}
-.big-card__description > p >a{
-    color: gray;
+.big-card__description > p > a {
+    color: gray; /* Cor do link */
 }
 
-.big-card__photo >img{
-    width: 100%;
-    min-width: 40px;
-    max-width: 400px;
+.big-card__photo > img {
+    width: 100%; /* Responsivo à largura do container */
+    min-width: 40px; /* Largura mínima da imagem */
+    max-width: 100%; /* Largura máxima da imagem para que ela seja responsiva */
 }

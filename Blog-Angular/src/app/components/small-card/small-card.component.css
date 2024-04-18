@@ -1,15 +1,16 @@
-
-.container__small-card{
-    width: 700px;
+.container__small-card {
+    width: 100%; /* Use 100% para ser responsivo */
+    max-width: 700px; /* Largura máxima do card */
     display: flex;
     flex-direction: row;
     font-size: 0.6em;
     margin: 10px;
+    flex-wrap: wrap; /* Permite que os elementos filhos quebrem em uma nova linha se não couberem */
 }
 
-.small-card__photo >img{
-    width: 200px;
-    min-width: 200px;
+.small-card__photo > img {
+    width: 100%; /* Responsivo à largura do container */
+    max-width: 200px; /* Largura máxima da imagem */
     margin-right: 20px;
 }
 

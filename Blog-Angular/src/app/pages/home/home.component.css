@@ -1,9 +1,17 @@
+.container__page {
+    width: calc(100vw - 60px);
+    margin-left: 60px;
+    max-width: 100%; /* Adicionado para garantir que o container não exceda a largura da janela de visualização */
+}
+
+
 .container__articles{
     padding: 10px;
     margin-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
 
 .articles__others{
