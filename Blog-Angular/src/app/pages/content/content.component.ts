@@ -11,6 +11,7 @@ export class ContentComponent implements OnInit {
   photoCover:string=""
   contentTitle:string=""
   contentDescription=""
+  contentLink=""
   private ide:string|null="0"
   constructor(
     private route:ActivatedRoute
@@ -26,6 +27,7 @@ export class ContentComponent implements OnInit {
     this.contentTitle = result.title
     this.contentDescription = result.description
     this.photoCover = result.photo
+    this.contentLink= result.link
   }
 
 }
