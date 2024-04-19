@@ -16,7 +16,15 @@
 
 .container_menu-title>h2 {
     margin: 15px;
-    font-weight: bolder;
+    font-weight: bold;
     display: flex;
     justify-content: center;
+    
+}
+.container_menu-title>h3{
+    margin: 15px;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
