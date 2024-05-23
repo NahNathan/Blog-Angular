@@ -61,5 +61,12 @@ export const dataFake=[
         "title":"Jogo da Velha",
         "description":"Um dos meus primeiros projetos em Angular, um simples jogo da velha que explora vários conceitos interessantes e importantes do framework.",
         "link": "https://github.com/NahNathan/Jogo_Da_Velha_Angular"
+    },
+    {
+        "Id":"10",
+        "photo":"https://i.imgur.com/wcv5RZK.png",
+        "title":"CodeProjectz",
+        "description":"Este projeto é foi feito em grupo para o curso de ADS no quinto período. Ele tem o objetivo de ser uma plataforma web de cursos e projetos para os alunos do IFTM, onde poderão se cadastrar, postar e assistir outros conteúdos criados por outros alunos e professores. Gostei muito de fazer este projeto e aprendi muito sobre vários aspectos do desenvolvimento ágil, além do conhecimento técnico. Fiquei responsável primariamente pelo frontend do projeto, feito em React. Foi integral para o projeto entender conceitos como consumo de APIs e requisições HTTP. Esse projeto foi feito com Augusto-Catejon, c-Alvinn e DevGustavus",
+        "link": "https://github.com/c-Alvinn/CodeProjectz"
     }
 ]
