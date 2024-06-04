@@ -2,11 +2,12 @@
     width: calc(100vw - 60px);
     margin-left: 60px;
     max-width: 100%; /* Adicionado para garantir que o container não exceda a largura da janela de visualização */
+    padding: 5px;
 }
 
 
 .container__articles{
-    padding: 10px;
+    padding: 15px;
     margin-top: 30px;
     display: flex;
     flex-direction: row;
@@ -15,6 +16,7 @@
 }
 
 .articles__others{
+    padding: 5px;
     display: flex;
     flex-direction: column;
 }

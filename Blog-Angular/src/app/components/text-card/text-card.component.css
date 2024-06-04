@@ -1,0 +1,9 @@
+.container__text{
+    text-align: center;
+    margin: 3vh;
+}
+
+.container__text p{
+    font-size: 22px;
+    text-align: left;
+}
