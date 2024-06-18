@@ -3,14 +3,18 @@
     --cor-primaria: #008170;
     --cor-secundaria: #005B41;
     --cor-escura: #232D3F;
-    --cor-clara: #D5DFD5; 
+    --cor-clara: #D5DFD5;
 }
 
-hr{
-    border-color: var(--cor-primaria);
+hr {
+    border: none;
+    height: 3px;
+    width: 80%;
+    background: linear-gradient(to right, transparent, var(--cor-primaria), transparent);
+    margin: 20px auto;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,6 +23,6 @@ hr{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
 }

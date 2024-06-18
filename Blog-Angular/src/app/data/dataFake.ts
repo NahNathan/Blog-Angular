@@ -1,7 +1,7 @@
 export const dataFake=[
     {
         "Id":"1",
-        "photo":"https://wallpapercave.com/wp/wp7250087.jpg",
+        "photo":"https://th.bing.com/th/id/OIP.bDK7QP5XrVzaPTpQZA97wAHaEo?rs=1&pid=ImgDetMain",
         "title":"Projeto de Gerenciamento de Consultórios Médicos",
         "description":"Este sistema foi feito para a matéria de Programação Orientada Pa Objetos, do curso de Análise e Desenvolvimento de Sistemas, no IFTM. O software oferece funcionalidades completas de CRUD (Criar, Ler, Atualizar, Deletar) para gerenciar perfis de usuários, médicos, franquias, unidades e consultas médicas. Com um design orientado para diferentes tipos de usuários, como gestores de franquia, médicos e pacientes, o sistema possibilita o gerenciamento eficiente desde o cadastro de pessoal até o controle financeiro de cada unidade, incluindo pagamentos e recebimentos. Ideal para garantir operações suaves e transparência na gestão de serviços médicos em escala. É possível . Este projeto foi feito em dupla e durante todo o semestre conforme aprendiamos sobre os conceitos de POO como abstração, encapsulamento, polimorfismo e herança. Foi desenvolvido completamente em Java.",
         "link": "https://github.com/NahNathan/iftm-consultorio-medico-2023-01"
@@ -10,7 +10,7 @@ export const dataFake=[
         "Id":"2",
         "photo":"https://raw.githubusercontent.com/NahNathan/Emprestimo-de-Chaves/main/Doc/README_assets/insert_pg.png",
         "title":"Sistema de Empréstimo de Chaves",
-        "description":"Este projeto foi desenvolvido para a disciplina Desenvolvimento de Aplicações Web 1 e consiste em um programa web completo para o gerenciamento de empréstimos de chaves. Utilizamos SpringBoot (Java) e MongoDB para o back-end, e Svelte para o front-end, criando uma interface limpa e funcional. O software registra todas as atividades de empréstimo e devolução de chaves, permitindo um controle eficiente e seguro. Através deste projeto, aprimoramos nossas habilidades em integração de API, arquitetura de banco de dados e UI/UX, além de expandir nosso conhecimento em bancos de dados NoSQL. Foi feito em dupla com luiz-felippelb",
+        "description":"Este projeto foi desenvolvido para a disciplina Desenvolvimento de Aplicações Web 1 e consiste em um programa web completo para o gerenciamento de empréstimos de chaves. Utilizamos SpringBoot (Java) e MongoDB para o back-end, e Svelte para o front-end, criando uma interface limpa e funcional. O software registra todas as atividades de empréstimo e devolução de chaves, permitindo um controle eficiente e seguro. Através deste projeto, aprimoramos nossas habilidades em integração de API, arquitetura de banco de dados e UI/UX, além de expandir nosso conhecimento em bancos de dados NoSQL. Foi desenvolvido em grupo com M4teusAlves, DevGustavus e GabrielaSRodrigues",
         "link": "https://github.com/NahNathan/Emprestimo-de-Chaves"
     },
     {
@@ -38,7 +38,7 @@ export const dataFake=[
         "Id":"6",
         "photo":"https://i.imgur.com/xg7WO8X.png",
         "title":"Night City Tarot",
-        "description":"O Night City Tarot é um aplicativo web que eu desenvolvido para usar em meus jogos pessoais de Cyberpunk Red, um RPG de mesa. Ele utiliza um baralho de cartas de tarô com tema Cyberpunk para apresentar eventos e resultados críticos aleatórios durante cenários de combate. O aplicativo aciona efeitos únicos das cartas da Arcana Maior quando certas condições de combate ocorem, como rolar vários seis. Sinte-se livre para dar uma olhada, ou até adicionar algo a mais.",
+        "description":"O Night City Tarot é um aplicativo web que eu desenvolvido para usar em meus jogos pessoais de Cyberpunk Red, um RPG de mesa. Ele utiliza um baralho de cartas de tarô com tema Cyberpunk para apresentar eventos e resultados críticos aleatórios durante cenários de combate. O aplicativo aciona efeitos únicos das cartas da Arcana Maior quando certas condições de combate ocorem, como rolar vários seis. Sinte-se livre para dar uma olhada, ou até adicionar algo a mais. Foi baseado no conteúdo oferecido pela R Talsorian Games, disponível gratuitamente no seu site:   https://rtalsoriangames.com/downloadable-content/",
         "link": "https://nahnathan.github.io/Night_City_Tarot/"
     },
     {
