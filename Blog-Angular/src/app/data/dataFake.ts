@@ -38,7 +38,7 @@ export const dataFake=[
         "Id":"6",
         "photo":"https://i.imgur.com/xg7WO8X.png",
         "title":"Night City Tarot",
-        "description":"O Night City Tarot é um aplicativo web que eu desenvolvido para usar em meus jogos pessoais de Cyberpunk Red, um RPG de mesa. Ele utiliza um baralho de cartas de tarô com tema Cyberpunk para apresentar eventos e resultados críticos aleatórios durante cenários de combate. O aplicativo aciona efeitos únicos das cartas da Arcana Maior quando certas condições de combate ocorem, como rolar vários seis. Sinte-se livre para dar uma olhada, ou até adicionar algo a mais. Foi baseado no conteúdo oferecido pela R Talsorian Games, disponível gratuitamente no seu site:  rtalsoriangames.com/downloadable-content/",
+        "description":"O Night City Tarot é um aplicativo web que eu desenvolvido para usar em meus jogos pessoais de Cyberpunk Red, um RPG de mesa. Ele utiliza um baralho de cartas de tarô com tema Cyberpunk para apresentar eventos e resultados críticos aleatórios durante cenários de combate. O aplicativo aciona efeitos únicos das cartas da Arcana Maior quando certas condições de combate ocorem, como rolar vários seis. Sinte-se livre para dar uma olhada, ou até adicionar algo a mais. Foi baseado no conteúdo oferecido pela R Talsorian Games, disponível gratuitamente no seu site:  rtalsoriangames.com",
         "link": "https://nahnathan.github.io/Night_City_Tarot/"
     },
     {
