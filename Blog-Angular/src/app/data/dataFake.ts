@@ -31,7 +31,7 @@ export const dataFake=[
         "Id":"5",
         "photo":"https://i.imgur.com/5eWzXu3.png",
         "title":"Campo Minado Mobile em Kotlin",
-        "description":"Esse projeto foi desenvolvido para a matéria de Extensão. Consiste em um jogo simples de campo minado feito usando Kotlin e as telas foram feitas usando xml. Ao final da matéria o projeto foi apresentado para uma turma de alunos do ensino fundamental para que criassem um interesse pela área de programação e pelo IFTM. Foi feito em dupla com Augusto-Castejon",
+        "description":"Este projeto foi desenvolvido para a matéria de Extensão. Consiste em um jogo simples de campo minado feito usando Kotlin e as telas foram feitas usando xml. Ao final da matéria o projeto foi apresentado para uma turma de alunos do ensino fundamental para que criassem um interesse pela área de programação e pelo IFTM. Foi feito em dupla com Augusto-Castejon",
         "link": "https://github.com/NahNathan/Campo-Minado-Mobile"
     },
     {
