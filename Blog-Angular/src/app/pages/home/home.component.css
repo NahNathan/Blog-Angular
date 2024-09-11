@@ -1,13 +1,13 @@
 .container__page {
     width: calc(100vw - 60px);
     margin-left: 60px;
-    max-width: 100%; /* Adicionado para garantir que o container não exceda a largura da janela de visualização */
+    max-width: 100%; 
     padding: 5px;
 }
 
 
 .container__articles{
-    padding: 12px;
+    padding: 20px;
     margin-top: 40px;
     display: flex;
     flex-direction: row;
@@ -16,7 +16,7 @@
 }
 
 .articles__others{
-    padding: 5px;
+    padding: 0px 40px;
     margin-left: 40px;
     display: flex;
     flex-direction: column;

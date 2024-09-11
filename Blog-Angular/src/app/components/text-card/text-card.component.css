@@ -1,9 +1,36 @@
-.container__text{
+.custom-footer {
+    background-color: var(--cor-secundaria); /* Variável para cor de fundo */
+    color: var(--cor-clara); /* Variável para cor do texto */
+    padding: 5vh;
+    margin-top: 10vh;
+    position: relative;
     text-align: center;
-    margin: 3vh;
 }
 
-.container__text p{
+.custom-footer::before {
+    content: "";
+    position: absolute;
+    top: -30px; 
+    right: 0;
+    width: 40dvw; 
+    height: 31px; 
+    background-color: var(--cor-secundaria);
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%); 
+}
+
+.custom-footer__content {
+    margin: 0 auto;
+
+    background-color: var(--cor-secundaria);
+}
+
+.custom-footer__content p {
     font-size: 22px;
     text-align: left;
+    margin-bottom: 20px;
+    background-color: var(--cor-secundaria);
+}
+
+.custom-footer__content h2{
+    background-color: var(--cor-secundaria);
 }
