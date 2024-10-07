@@ -1,5 +1,5 @@
 .custom-footer {
-    background-color: var(--cor-secundaria); /* Variável para cor de fundo */
+    background-color:  var(--cor-secundaria); /* Variável para cor de fundo */
     color: var(--cor-clara); /* Variável para cor do texto */
     padding: 5vh;
     margin-top: 10vh;

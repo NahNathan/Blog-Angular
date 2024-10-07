@@ -50,10 +50,10 @@ export const dataFake=[
     },
     {
         "Id":"8",
-        "photo":"https://i.imgur.com/B8sTUFS.png",
-        "title":"Imagens Responsivas",
-        "description":"Um projeto simples para estudar vários conceitos de javascrpit e um efeito visual muito interessante. Nesse projeto várias imagens são mostradas à medida que o cursor se move pela tela",
-        "link": " https://github.com/NahNathan/Imagens_Responsivas"
+        "photo":"https://i.imgur.com/CJ3poXf.png",
+        "title":"Rolador de Dados para um RPG brasileiro",
+        "description":"Este projeto é um rolador de dados para o rpg brasileiro Bandeira do Elefante e da Arara. Nele é possível não apenas rolar os dados, como também incluir modificadores para o jogo e também uma dificuldade para os testes. Tentei ao máximo deixar o projeto caracterizado à ambientação do jogo, que se passa em um Brasil na era colonial!",
+        "link": "https://nahnathan.github.io/BEA-Roller/"
     },
     {
         "Id":"9",
