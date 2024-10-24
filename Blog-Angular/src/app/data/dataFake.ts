@@ -68,5 +68,19 @@ export const dataFake=[
         "title":"CodeProjectz",
         "description":"Este projeto é foi feito em grupo para o curso de ADS no quinto período. Ele tem o objetivo de ser uma plataforma web de cursos e projetos para os alunos do IFTM, onde poderão se cadastrar, postar e assistir outros conteúdos criados por outros alunos e professores. Gostei muito de fazer este projeto e aprendi muito sobre vários aspectos do desenvolvimento ágil, além do conhecimento técnico. Fiquei responsável primariamente pelo frontend do projeto, feito em React. Foi integral para o projeto entender conceitos como consumo de APIs e requisições HTTP. Este projeto foi feito com Augusto-Catejon, c-Alvinn e DevGustavus",
         "link": "https://github.com/c-Alvinn/CodeProjectz"
-    }
+    },
+    {
+        "Id":"11",
+        "photo":"https://i.imgur.com/wRuMVRa.png",
+        "title":"Sistema Consulta Sepultados",
+        "description":"Durante meu estágio na Codiub, ajudei no desenvolvimento e remodelagem do novo sistema de consulta sepultados da cidade. Este sistema estava escrito em uma versão antiga e desatualizada de php, então foi necessária a recriação do sistema. Foi utilizado o Angular 15 pela sua rebostez e confiabilidade.",
+        "link": "https://app3.codiub.com.br/consulta_sepultados"
+    },
+    {
+        "Id":"12",
+        "photo":"https://i.imgur.com/IcmxWmd.png",
+        "title":"Portal Acadêmico",
+        "description":"Durante meu estágio na Codiub, ajudei no desenvolvimento de várias telas do Portal Acadêmico, um sistema utilizado por centenas de alunos da rede municipal de Uberaba. O sistema auxilia em consultar informações com  vagas, rematrículas, matrículas e boletins, gerar declarações, etc. As telas foram feitas usando jsf e o framework Primefaces.",
+        "link": "https://app3.codiub.com.br/portal-academico/pages/listaesperave/fulllistaVagaesc-home.xhtml"
+    },
 ]
