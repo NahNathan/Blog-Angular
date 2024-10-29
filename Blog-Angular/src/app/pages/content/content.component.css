@@ -1,4 +1,5 @@
-.container__content{
+/* Estilos para a tela completa */
+.container__content {
     width: calc(100% - 60px);
     overflow-x: hidden;
     margin-left: 60px;
@@ -8,53 +9,57 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    padding: 5px; 
+    padding: 5px;
 }
-.content__cover > img{
-    min-width: 500px;
+
+.content__cover > img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do container */
+    width: 500px;
+    height: auto;
     border-radius: 5px;
     box-shadow: 1px 0px 10px black;
-    width: 500px;
-    height: 300px;
 }
 
+/* Ajustes para telas menores (mobile) */
+@media (max-width: 768px) {
+    .container__content {
+        width: calc(100% - 60px);
+        padding: 10px;
+        margin-left: 60px;
+    }
 
-.content__description{
-    margin-top: 20px;
+    .content__cover > img {
+        width: 90%; /* A imagem ocupa toda a largura da tela */
+        height: auto; /* Mantém a proporção correta da imagem */
+        border-radius: 5px;
+        margin-left: 10px;
+    }
+
+    .content__description > p {
+        font-size: 1em; /* Reduz um pouco o tamanho da fonte para telas menores */
+        margin: 10px;
+    }
+
+    .back-button {
+        width: 100%; /* Botão ocupa toda a largura */
+        justify-content: center;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .content__link {
+        word-wrap: break-word; /* Garante que links longos quebrem corretamente */
+        text-align: center;
+    }
 }
 
-.content__description >p{
-    color: var(--cor-clara);
-    margin-right: 20px;
-    margin-left: 10px;
-    font-size: 1.2em;
-    overflow: hidden;
-}
-.content__link{
-    margin-top: 20px;
-}
-.back-button {
-    padding: 10px 20px;
-    background-color: var(--cor-primaria);
-    color: var(--cor-clara); 
-    border: none;
-    border-radius: 5px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-decoration: none;
-    transition: background-color 0.3s, color 0.3s;
-    display: inline-flex; 
-    align-items: center; 
-    margin: 20px;
-}
+/* Estilos para telas muito pequenas (como smartphones) */
+@media (max-width: 480px) {
+    .content__description > p {
+        font-size: 0.9em;
+    }
 
-.back-button i {
-    margin-right: 10px; 
-    background-color: var(--cor-primaria); 
+    .back-button {
+        font-size: 0.9em;
+    }
 }
-
-.back-button:hover {
-    background-color: var(--cor-secundaria); /* Cor do botão no hover */
-    cursor: pointer;
-}
-
-
