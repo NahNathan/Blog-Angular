@@ -29,3 +29,9 @@
     text-align: center;
     padding: 10px 40px;
 }
+
+@media screen and (max-width:600px){
+    .container_menu-title>h1 {
+        font-size: 30px;
+    }
+}
