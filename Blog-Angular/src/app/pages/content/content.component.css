@@ -10,10 +10,33 @@
     align-items: center;
     margin-top: 20px;
     padding: 5px;
+    margin-bottom: 20vh;
+}
+
+.back-button{
+    background-color: var(--cor-secundaria);
+
+    margin: 15px;
+    padding: 8px;
+    border-radius: 15%;
+    transition: all 0.3s ease-out;
+}
+
+.back-button i{
+    background-color: var(--cor-secundaria);
+    transition: all 0.3s ease-out;
+}
+
+.back-button:hover{
+    background-color: var(--cor-primaria);
+}
+
+.back-button:hover >i{
+    background-color: var(--cor-primaria);
 }
 
 .content__cover > img {
-    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do container */
+    max-width: 100%; 
     width: 500px;
     height: auto;
     border-radius: 5px;
@@ -41,7 +64,6 @@
     }
 
     .back-button {
-        width: 100%; /* Botão ocupa toda a largura */
         justify-content: center;
         margin: 10px 0;
         padding: 10px;

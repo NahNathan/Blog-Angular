@@ -1,25 +1,30 @@
 .container__big-card {
-    width: 100%; /* Use 100% para ser responsivo */
-    max-width: 450px; /* Largura máxima do card */
-    height: auto; /* Altura automática para acomodar o conteúdo */
+    width: 100%; 
+    max-width: 450px; 
+    height: auto; 
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     justify-content: flex-start;
     padding: 10px;
+    transition: all 0.3s ease-out;
+}
+
+.container__big-card:hover{
+    box-shadow: var(--cor-secundaria) 0px 0px 30px;
 }
 
 .big-card__title > h1 {
-    font-size: 20px; /* Ajuste conforme necessário */
+    font-size: 20px; 
     margin-top: 15px;
 }
 
 .big-card__description > p > a {
-    color: gray; /* Cor do link */
+    color: gray; 
 }
 
 .big-card__photo > img {
-    width: 100%; /* Responsivo à largura do container */
-    min-width: 40px; /* Largura mínima da imagem */
-    max-width: 100%; /* Largura máxima da imagem para que ela seja responsiva */
+    width: 100%; 
+    min-width: 40px; 
+    max-width: 100%; 
 }

@@ -2,8 +2,8 @@ export const dataFake=[
     {
         "Id":"1",
         "photo":"https://th.bing.com/th/id/OIP.bDK7QP5XrVzaPTpQZA97wAHaEo?rs=1&pid=ImgDetMain",
-        "title":"Projeto de Gerenciamento de Consultórios Médicos",
-        "description":"Este sistema foi feito para a matéria de Programação Orientada Pa Objetos, do curso de Análise e Desenvolvimento de Sistemas, no IFTM. O software oferece funcionalidades completas de CRUD (Criar, Ler, Atualizar, Deletar) para gerenciar perfis de usuários, médicos, franquias, unidades e consultas médicas. Com um design orientado para diferentes tipos de usuários, como gestores de franquia, médicos e pacientes, o sistema possibilita o gerenciamento eficiente desde o cadastro de pessoal até o controle financeiro de cada unidade, incluindo pagamentos e recebimentos. Ideal para garantir operações suaves e transparência na gestão de serviços médicos em escala. É possível . Este projeto foi feito em dupla e durante todo o semestre conforme aprendiamos sobre os conceitos de POO como abstração, encapsulamento, polimorfismo e herança. Foi desenvolvido completamente em Java.",
+        "title":"Gerenciamento de Consultórios Médicos",
+        "description":"Este sistema foi feito para a matéria de Programação Orientada à Objetos, do curso de Análise e Desenvolvimento de Sistemas, no IFTM. O software oferece funcionalidades completas de CRUD (Criar, Ler, Atualizar, Deletar) para gerenciar perfis de usuários, médicos, franquias, unidades e consultas médicas. Com um design orientado para diferentes tipos de usuários, como gestores de franquia, médicos e pacientes, o sistema possibilita o gerenciamento eficiente desde o cadastro de pessoal até o controle financeiro de cada unidade, incluindo pagamentos e recebimentos. Ideal para garantir operações suaves e transparência na gestão de serviços médicos em escala. É possível . Este projeto foi feito em dupla e durante todo o semestre conforme aprendiamos sobre os conceitos de POO como abstração, encapsulamento, polimorfismo e herança. Foi desenvolvido completamente em Java.",
         "link": "https://github.com/NahNathan/iftm-consultorio-medico-2023-01"
     },
     {
@@ -16,7 +16,7 @@ export const dataFake=[
     {
         "Id":"3",
         "photo":"https://i.imgur.com/7GLZ3wC.png",
-        "title":"Jeff Imóveis, um sistema kotlin de gerenciamento de imóveis feito para uma prova",
+        "title":"Jeff Imóveis, gerenciamento de imóveis",
         "description":"O projeto Jeff-Imóveis foi desenvolvido como parte da avaliação final da disciplina de Programação para Dispositivos Móveis do IFTM, em colaboração com luiz-felippelb. Este sistema permite o cadastro de imóveis, proprietários e inquilinos, oferecendo funcionalidades para visualização e edição desses dados. Além disso, possibilita o aluguel de imóveis aos inquilinos cadastrados, facilitando a gestão de propriedades de forma eficiente e integrada diretamente de dispositivos móveis.",
         "link": "https://github.com/NahNathan/Jeff-Imoveis"
     },
@@ -67,7 +67,7 @@ export const dataFake=[
         "photo":"https://i.imgur.com/Vc3N6fx.png",
         "title":"CodeProjectz",
         "description":"Este projeto é foi feito em grupo para o curso de ADS no quinto período. Ele tem o objetivo de ser uma plataforma web de cursos e projetos para os alunos do IFTM, onde poderão se cadastrar, postar e assistir outros conteúdos criados por outros alunos e professores. Gostei muito de fazer este projeto e aprendi muito sobre vários aspectos do desenvolvimento ágil, além do conhecimento técnico. Fiquei responsável primariamente pelo frontend do projeto, feito em React. Foi integral para o projeto entender conceitos como consumo de APIs e requisições HTTP. Também foi integrado ao projeto uma IA, que resume o artigo e também consegue responder perguntas sobre o artigo. Essa IA foi uma integração com a API do Gemini. Fui responsável pelo front-end, o design das telas e integração com os dados do back-end. Este projeto foi feito com Augusto-Catejon, c-Alvinn e DevGustavus",
-        "link": "https://i.imgur.com/Vc3N6fx.png"
+        "link": "https://github.com/c-Alvinn/CodeProjectz"
     },
     {
         "Id":"11",
@@ -81,6 +81,13 @@ export const dataFake=[
         "photo":"https://i.imgur.com/IcmxWmd.png",
         "title":"Portal Acadêmico",
         "description":"Durante meu estágio na Codiub, ajudei no desenvolvimento de várias telas do Portal Acadêmico, um sistema utilizado por centenas de alunos da rede municipal de Uberaba. O sistema auxilia em consultar informações com  vagas, rematrículas, matrículas e boletins, gerar declarações, etc. As telas foram feitas usando jsf e o framework Primefaces.",
+        "link": "https://app3.codiub.com.br/portal-academico/pages/listaesperave/fulllistaVagaesc-home.xhtml"
+    },
+    {
+        "Id":"13",
+        "photo":"https://i.imgur.com/IcmxWmd.png",
+        "title":"SAPI",
+        "description":"O Sistema de Auxílio Pedagógico Inteligente surgiu em uma Hackathon,",
         "link": "https://app3.codiub.com.br/portal-academico/pages/listaesperave/fulllistaVagaesc-home.xhtml"
     },
 ]
