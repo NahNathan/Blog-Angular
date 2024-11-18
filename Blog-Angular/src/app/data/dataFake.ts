@@ -85,9 +85,9 @@ export const dataFake=[
     },
     {
         "Id":"13",
-        "photo":"https://i.imgur.com/IcmxWmd.png",
+        "photo":"https://i.imgur.com/xmBGQ9B.jpeg",
         "title":"SAPI",
-        "description":"O Sistema de Auxílio Pedagógico Inteligente surgiu em uma Hackathon,",
-        "link": "https://app3.codiub.com.br/portal-academico/pages/listaesperave/fulllistaVagaesc-home.xhtml"
+        "description":"O Sistema de Auxílio Pedagógico Inteligente surgiu na Hackathon IFTM, com foco em IA. A ideia que nosso grupo desenvolveu evolui e foi lapidado em mentorias e wortkshops dados pelo Pré-Acelera, um evento de fomentação de ideias e start-ups do Sebrae. Nosso sistema foca em auxiliar o professor a criar vários materias rapidamente, como Plano de Aulas, Atividades, Provas, Cronogramas, entre outros. Nossa ideia foi apresentada",
+        "link": "https://iftm.edu.br/hackathon/2024/"
     },
 ]
