@@ -22,11 +22,29 @@
     flex-direction: column;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width: 768px) {
     .container__articles {
         display: flex;
         flex-direction: column;
         font-size: 10px;
+    }
+
+    .articles__main, 
+    .articles__others {
+        padding: 0;
+        margin: 0; 
+        width: 100%; 
+    }
+
+    .container__big-card,
+    .container__small-card {
+        max-width: 450px; 
+        width: 100%; 
+        font-size: 1em; 
+    }
+
+    .small-card__photo > img {
+        max-width: 100%; 
     }
 }
 
