@@ -85,9 +85,23 @@ export const dataFake=[
     },
     {
         "Id":"13",
-        "photo":"https://i.imgur.com/xmBGQ9B.jpeg",
+        "photo":"https://i.imgur.com/TciQcbx.png",
+        "title":"Portal Codiub",
+        "description":"Um projeto de destaque durante meu estágio na Codiub, auxiliei em grande parte no desenvolvimento de uma nova interface para o portal principal da empresa. Desenvolvido utilizando um framework php interno, o novo site tem uma interface mais intuitiva, responsiva e moderna, contendo todos os serviços e informações necessárias e relevantes para o cidadão.",
+        "link": "http://www.codiub.com.br/codiub/principal"
+    },
+    {
+        "Id":"14",
+        "photo":"https://i.imgur.com/TciQcbx.png",
+        "title":"Smart Face Ponto Facial",
+        "description":"Smart Face Ponto Facial é um sistema desenvolvido pela Criativa IA, startup parceira Google, com foco em gerenciar e registar as batidas de ponto de funcionários em um cenário profissional, utilizando reconhecimento facial pelo celular. Meu principal foco neste projeto foi no sistema web, onde o RH da empresa tem controle e gerenciamento de várias informações, assim como uma IA para auxílio na análise emocional dos funcionários.",
+        "link": "https://criativa.ai/"
+    },
+    {
+        "Id":"15",
+        "photo":"https://i.imgur.com/TciQcbx.png",
         "title":"SAPI",
-        "description":"O Sistema de Auxílio Pedagógico Inteligente surgiu na Hackathon IFTM, com foco em IA. A ideia que nosso grupo desenvolveu evolui e foi lapidado em mentorias e wortkshops dados pelo Pré-Acelera, um evento de fomentação de ideias e start-ups do Sebrae. Nosso sistema foca em auxiliar o professor a criar vários materias rapidamente, como Plano de Aulas, Atividades, Provas, Cronogramas, entre outros. Nossa ideia foi apresentada",
+        "description":"O Sistema de Auxílio Pedagógico Inteligente surgiu como nosso projeto na Hackathon IFTM 2024, com foco em IA. Nossa ideia foi desenvolvida e foi lapidada em mentorias e wortkshops dados pelo Pré-Acelera, um evento de fomentação de ideias e start-ups do Sebrae. Nosso sistema foca em auxiliar o professor, reduzindo drasticamente o tempo de preparação de aulas e conteúdo. Nosso sistema o auxilia a criar vários materias rapidamente, como Plano de Aulas, Atividades, Provas, Cronogramas, entre outros. Também há uma área completa de gerenciamento e análise para o diretor ou supervisor da instituição. Se houver interesse, por favor entre com contato conosco pelo nosso email: sapiequipe@gmail.com",
         "link": "https://iftm.edu.br/hackathon/2024/"
     },
 ]
