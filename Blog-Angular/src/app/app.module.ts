@@ -10,6 +10,7 @@ import { SmallCardComponent } from './components/small-card/small-card.component
 import { HomeComponent } from './pages/home/home.component';
 import { ContentComponent } from './pages/content/content.component';
 import { TextCardComponent } from './components/text-card/text-card.component';
+import { STextCardComponent } from './components/s-text-card/s-text-card.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { TextCardComponent } from './components/text-card/text-card.component';
     SmallCardComponent,
     HomeComponent,
     ContentComponent,
-    TextCardComponent
+    TextCardComponent,
+    STextCardComponent
   ],
   imports: [
     BrowserModule,
