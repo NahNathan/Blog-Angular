@@ -73,14 +73,14 @@ export const dataFake=[
         "Id":"11",
         "photo":"https://i.imgur.com/wRuMVRa.png",
         "title":"Sistema Consulta Sepultados",
-        "description":"Durante meu estágio na Codiub, ajudei no desenvolvimento e remodelagem do novo sistema de consulta sepultados da cidade. Este sistema estava escrito em uma versão antiga e desatualizada de php, então foi necessária a recriação do sistema. Foi utilizado o Angular 15 pela sua rebostez e confiabilidade.",
+        "description":"Durante meu estágio na Codiub, participei do desenvolvimento e da modernização do sistema de consulta de sepultados da cidade de Uberaba. O sistema anterior, implementado em uma versão antiga e desatualizada de PHP, apresentava limitações técnicas e dificuldades de manutenção, o que exigiu sua recriação do zero. Para o novo sistema, optamos pelo Angular 15 devido à sua robustez, confiabilidade e recursos avançados, garantindo uma interface moderna, responsiva e intuitiva. Minha contribuição incluiu a implementação de funcionalidades essenciais e a criação de uma experiência otimizada para os usuários finais.",
         "link": "https://app3.codiub.com.br/consulta_sepultados"
     },
     {
         "Id":"12",
         "photo":"https://i.imgur.com/IcmxWmd.png",
         "title":"Portal Acadêmico",
-        "description":"Durante meu estágio na Codiub, ajudei no desenvolvimento de várias telas do Portal Acadêmico, um sistema utilizado por centenas de alunos da rede municipal de Uberaba. O sistema auxilia em consultar informações com  vagas, rematrículas, matrículas e boletins, gerar declarações, etc. As telas foram feitas usando jsf e o framework Primefaces.",
+        "description":"Durante meu estágio na Codiub, colaborei no desenvolvimento de diversas telas para o Portal Acadêmico, um sistema utilizado por centenas de alunos da rede municipal de Uberaba. O portal é uma ferramenta crucial para a gestão acadêmica, permitindo a consulta de informações sobre vagas, matrículas, rematrículas e boletins, além de possibilitar a geração de declarações e outros documentos. Utilizei tecnologias como JSF e o framework PrimeFaces para criar interfaces dinâmicas e amigáveis, assegurando um alto padrão de usabilidade e eficiência no acesso às informações pelos estudantes e administradores.",
         "link": "https://app3.codiub.com.br/portal-academico/pages/listaesperave/fulllistaVagaesc-home.xhtml"
     },
     {
@@ -101,7 +101,7 @@ export const dataFake=[
         "Id":"15",
         "photo":"https://i.imgur.com/TciQcbx.png",
         "title":"SAPI",
-        "description":"O Sistema de Auxílio Pedagógico Inteligente surgiu como nosso projeto na Hackathon IFTM 2024, com foco em IA. Nossa ideia foi desenvolvida e foi lapidada em mentorias e wortkshops dados pelo Pré-Acelera, um evento de fomentação de ideias e start-ups do Sebrae. Nosso sistema foca em auxiliar o professor, reduzindo drasticamente o tempo de preparação de aulas e conteúdo. Nosso sistema o auxilia a criar vários materias rapidamente, como Plano de Aulas, Atividades, Provas, Cronogramas, entre outros. Também há uma área completa de gerenciamento e análise para o diretor ou supervisor da instituição. Se houver interesse, por favor entre com contato conosco pelo nosso email: sapiequipe@gmail.com",
+        "description":"O Sistema de Auxílio Pedagógico Inteligente (SAPI) foi o projeto desenvolvido pela nossa equipe durante a Hackathon IFTM 2024, com foco em inteligência artificial. A ideia foi refinada com mentorias e workshops promovidos pelo Pré-Acelera, um programa do Sebrae voltado ao fomento de startups e inovação. O SAPI tem como objetivo principal facilitar a rotina dos professores, reduzindo significativamente o tempo necessário para preparar aulas e materiais pedagógicos. O sistema oferece ferramentas para a criação ágil de planos de aula, atividades, provas, cronogramas e outros conteúdos. Além disso, inclui um painel completo de gerenciamento e análise voltado para diretores e supervisores, permitindo uma visão estratégica do desempenho acadêmico e organizacional. Para mais informações ou parcerias, entre em contato pelo e-mail: sapiequipe@gmail.com.",
         "link": "https://iftm.edu.br/hackathon/2024/"
     },
 ]
