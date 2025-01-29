@@ -11,6 +11,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { ContentComponent } from './pages/content/content.component';
 import { TextCardComponent } from './components/text-card/text-card.component';
 import { STextCardComponent } from './components/s-text-card/s-text-card.component';
+import { TechsSliderComponent } from './components/techs-slider/techs-slider.component';
+import { TechsCardComponent } from './components/techs-card/techs-card.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { STextCardComponent } from './components/s-text-card/s-text-card.compone
     HomeComponent,
     ContentComponent,
     TextCardComponent,
-    STextCardComponent
+    STextCardComponent,
+    TechsSliderComponent,
+    TechsCardComponent
   ],
   imports: [
     BrowserModule,

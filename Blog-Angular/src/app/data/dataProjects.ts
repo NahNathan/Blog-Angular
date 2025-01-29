@@ -1,4 +1,4 @@
-export const dataFake=[
+export const dataProjets=[
     {
         "Id":"1",
         "photo":"https://th.bing.com/th/id/OIP.bDK7QP5XrVzaPTpQZA97wAHaEo?rs=1&pid=ImgDetMain",
@@ -92,16 +92,23 @@ export const dataFake=[
     },
     {
         "Id":"14",
-        "photo":"https://i.imgur.com/TciQcbx.png",
+        "photo":"https://i.imgur.com/XPCxtgo.png",
         "title":"Smart Face Ponto Facial",
         "description":"Smart Face Ponto Facial é um sistema desenvolvido pela Criativa IA, startup parceira Google, com foco em gerenciar e registar as batidas de ponto de funcionários em um cenário profissional, utilizando reconhecimento facial pelo celular. Meu principal foco neste projeto foi no sistema web, onde o RH da empresa tem controle e gerenciamento de várias informações, assim como uma IA para auxílio na análise emocional dos funcionários.",
         "link": "https://criativa.ai/"
     },
     {
         "Id":"15",
-        "photo":"https://i.imgur.com/TciQcbx.png",
+        "photo":"https://i.imgur.com/eVA8b9b.png",
         "title":"SAPI",
         "description":"O Sistema de Auxílio Pedagógico Inteligente (SAPI) foi o projeto desenvolvido pela nossa equipe durante a Hackathon IFTM 2024, com foco em inteligência artificial. A ideia foi refinada com mentorias e workshops promovidos pelo Pré-Acelera, um programa do Sebrae voltado ao fomento de startups e inovação. O SAPI tem como objetivo principal facilitar a rotina dos professores, reduzindo significativamente o tempo necessário para preparar aulas e materiais pedagógicos. O sistema oferece ferramentas para a criação ágil de planos de aula, atividades, provas, cronogramas e outros conteúdos. Além disso, inclui um painel completo de gerenciamento e análise voltado para diretores e supervisores, permitindo uma visão estratégica do desempenho acadêmico e organizacional. Para mais informações ou parcerias, entre em contato pelo e-mail: sapiequipe@gmail.com.",
         "link": "https://iftm.edu.br/hackathon/2024/"
     },
+    {
+        "Id":"16",
+        "photo":"https://i.imgur.com/TciQcbx.png",
+        "title":"Minha experiência na Hackathon IFTM 2024",
+        "description":"Em 2024",
+        "link": "https://iftm.edu.br/hackathon/2024/"
+    }
 ]
