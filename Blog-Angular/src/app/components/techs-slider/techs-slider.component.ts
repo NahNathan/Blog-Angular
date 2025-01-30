@@ -10,21 +10,30 @@ export class TechsSliderComponent implements OnInit {
   techs = dataTechs;
   currentIndex = 0;
   private slideInterval: any;
+  animationClass = '';
 
   ngOnInit(): void {
     this.startAutoSlide();
   }
 
   nextSlide(): void {
-    this.currentIndex = (this.currentIndex + 1) % this.techs.length;
+    this.setAnimation('slide-out-left');
+    setTimeout(() => {
+      this.currentIndex = (this.currentIndex + 1) % this.techs.length;
+      this.setAnimation('slide-in-right');
+    }, 300);
   }
 
   prevSlide(): void {
-    this.currentIndex = (this.currentIndex - 1 + this.techs.length) % this.techs.length;
+    this.setAnimation('slide-out-right');
+    setTimeout(() => {
+      this.currentIndex = (this.currentIndex - 1 + this.techs.length) % this.techs.length;
+      this.setAnimation('slide-in-left');
+    }, 300);
   }
 
   startAutoSlide(): void {
-    this.stopAutoSlide(); // Garante que não haja múltiplos intervalos ativos
+    this.stopAutoSlide();
     this.slideInterval = setInterval(() => {
       this.nextSlide();
     }, 15000);
@@ -34,6 +43,13 @@ export class TechsSliderComponent implements OnInit {
     if (this.slideInterval) {
       clearInterval(this.slideInterval);
     }
+  }
+
+  setAnimation(animation: string): void {
+    this.animationClass = animation;
+    setTimeout(() => {
+      this.animationClass = '';
+    }, 300);
   }
 
   @HostListener('mouseenter') onMouseEnter(): void {

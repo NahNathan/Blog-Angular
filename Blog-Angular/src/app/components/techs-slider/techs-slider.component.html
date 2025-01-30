@@ -1,12 +1,15 @@
 <div class="techs-slider">
-    <button class="nav-btn left" (click)="prevSlide()">&#10094;</button>
-  
-    <app-techs-card
-      [techTitle]="techs[currentIndex].title"
-      [techPhoto]="techs[currentIndex].image"
-      [techDescription]="techs[currentIndex].description">
-    </app-techs-card>
-  
-    <button class="nav-btn right" (click)="nextSlide()">&#10095;</button>
+  <button class="nav-btn left" (click)="prevSlide()">&#10094;</button>
+
+  <div class="tech-content">
+    <h1>Tecnologias que tenho experiência</h1>
+    <div [ngClass]="animationClass">
+      <h1>{{ techs[currentIndex].title }}</h1>
+      <img [src]="techs[currentIndex].image" alt="{{ techs[currentIndex].title }}">
+      <p>{{ techs[currentIndex].description }}</p>
+    </div>
   </div>
-  <hr>
+  <button class="nav-btn right" (click)="nextSlide()">&#10095;</button>
+</div>
+
+<hr>
