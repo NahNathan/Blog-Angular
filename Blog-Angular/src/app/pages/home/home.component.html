@@ -1,7 +1,5 @@
 <app-menu-title></app-menu-title>
 <div class="container__page">
-    <app-techs-slider>
-    </app-techs-slider>
     <div class="container__articles">
         <div class="articles__main" *ngIf="data[9]">
             <app-big-card 
@@ -24,6 +22,8 @@
     </div>
 
     <hr>
+    <app-techs-slider>
+    </app-techs-slider>
 
     <div class="container__articles">
         <div class="articles__others">
@@ -46,8 +46,10 @@
         </div>
     </div>
 
+    
+    <app-text-card></app-text-card>
+    <app-s-text-card></app-s-text-card>
     <hr>
-
     <div class="container__articles">
         <div class="articles__main" *ngIf="data[6]">
             <app-big-card 
@@ -69,6 +71,5 @@
         </div>
     </div>
 
-    <app-text-card></app-text-card>
-    <app-s-text-card></app-s-text-card>
+    
 </div>
