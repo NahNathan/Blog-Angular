@@ -5,19 +5,24 @@ export const dataTechs = [
     image: "https://angular.io/assets/images/logos/angular/angular.svg"
   },
   {
-    title: "React",
-    description: "Atuação em projetos web e mobile utilizando React e React Native, com foco em interfaces dinâmicas e experiência do usuário",
-    image: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
-  },
-  {
     title: "Java",
     description: "Desenvolvimento de aplicações backend robustas utilizando Java e o framework Spring, atuando na criação e manutenção de APIs",
     image: "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg"
   },
   {
+    title: "React",
+    description: "Atuação em projetos web e mobile utilizando React e React Native, com foco em interfaces dinâmicas e experiência do usuário",
+    image: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+  },
+  {
     title: "Spring",
     description: "Experiência no desenvolvimento backend utilizando Spring Framework para construção de APIs escaláveis e manutenção de sistemas",
     image: "https://spring.io/img/spring.svg"
+  },
+  {
+    title: "Svelte",
+    description: "Pessoalmente meu framework preferido de desenvolvimento web para projetos pessoais, devido a sua simplicidade e rapidez",
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg"
   },
   {
     title: "C#",
@@ -59,9 +64,4 @@ export const dataTechs = [
     description: "Configuração e gerenciamento de containers Docker para facilitar a implantação e escalabilidade de aplicações",
     image: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg"
   },
-    {
-    title: "Svelte",
-    description: "Pessoalmente meu framework preferido de desenvolvimento web para projetos pessoais, devido a sua simplicidade e rapidez",
-    image: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg"
-  }
 ];
