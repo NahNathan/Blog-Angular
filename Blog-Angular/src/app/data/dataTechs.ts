@@ -15,6 +15,11 @@ export const dataTechs = [
     image: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
   },
   {
+    title: "Kotlin",
+    description: "Desenvolvimento de soluções modernas e concisas com Kotlin, destacando-se em backend, integração com APIs e desenvolvimento mobile",
+    image: "https://icon.icepanel.io/Technology/svg/Kotlin.svg"
+  },
+  {
     title: "Spring",
     description: "Experiência no desenvolvimento backend utilizando Spring Framework para construção de APIs escaláveis e manutenção de sistemas",
     image: "https://spring.io/img/spring.svg"

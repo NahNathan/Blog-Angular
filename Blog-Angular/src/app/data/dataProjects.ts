@@ -85,10 +85,10 @@ export const dataProjets=[
     },
     {
         "Id":"13",
-        "photo":"https://i.imgur.com/TciQcbx.png",
+        "photo":"https://i.imgur.com/RMd9Wkx.png",
         "title":"Portal Codiub",
         "description":"Um projeto de destaque durante meu estágio na Codiub, auxiliei em grande parte no desenvolvimento de uma nova interface para o portal principal da empresa. Desenvolvido utilizando um framework php interno, o novo site tem uma interface mais intuitiva, responsiva e moderna, contendo todos os serviços e informações necessárias e relevantes para o cidadão.",
-        "link": "http://www.codiub.com.br/codiub/principal"
+        "link": "https://www.codiub.com.br/"
     },
     {
         "Id":"14",
@@ -106,9 +106,9 @@ export const dataProjets=[
     },
     {
         "Id":"16",
-        "photo":"https://i.imgur.com/TciQcbx.png",
-        "title":"Minha experiência na Hackathon IFTM 2024",
-        "description":"Em 2024",
-        "link": "https://iftm.edu.br/hackathon/2024/"
+        "photo":"https://i.imgur.com/LyogwuP.png",
+        "title":"Vassal0",
+        "description":"O Vassal0 é um bot desenvolvido em Kotlin utilizando a biblioteca JDA (Java Discord API), criado para automatizar interações em servidores do Discord com comandos personalizados, como rolagens de dados e eventos aleatórios, específicos para Vampiro - A Máscara, um RPG que tenho muito interesse. Escolhi Kotlin por oferecer uma programação moderna, concisa e altamente funcional. Outra parte muito interessante do mesmo projeto foi configurar um celular antigo que eu tenho (moto e5 play) e configurá-lo para ser um mini servidor, e rodar este código durantee meus jogos!",
+        "link": "https://github.com/NahNathan/Vassal0"
     }
 ]

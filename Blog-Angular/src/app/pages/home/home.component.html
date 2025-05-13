@@ -11,7 +11,7 @@
         </div>
 
         <div class="articles__others">
-            <ng-container *ngFor="let item of [data[10], data[0], data[11]]">
+            <ng-container *ngFor="let item of [data[15], data[12], data[10]]">
                 <app-small-card 
                     [Id]="item.Id"
                     [smallDescription]="item.title"
@@ -24,6 +24,27 @@
     <hr>
     <app-techs-slider>
     </app-techs-slider>
+
+    <div class="container__articles">
+        <div class="articles__main" *ngIf="data[13]">
+            <app-big-card 
+                [Id]="data[13].Id"
+                [photoCover]="data[13].photo"
+                [cardTitle]="data[13].title"
+                [cardDescription]="'Um sistema de reconhecimento de ponto facial com um módulo web de gerenciamento completo para o RH, com integração com uma IA de análise facial e emocional, desenvolvido para a start-up Criativa'">
+            </app-big-card>
+        </div>
+
+        <div class="articles__others">
+            <ng-container *ngFor="let item of [data[0], data[14], data[11]]">
+                <app-small-card 
+                    [Id]="item.Id"
+                    [smallDescription]="item.title"
+                    [smallPhoto]="item.photo">
+                </app-small-card>
+            </ng-container>
+        </div>
+    </div>
 
     <div class="container__articles">
         <div class="articles__others">
