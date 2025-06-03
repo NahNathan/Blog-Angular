@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { dataProjets } from '../../data/dataProjects';
+import { dataProjects } from '../../data/dataProjects';
 
 @Component({
   selector: 'app-home',
@@ -7,7 +7,7 @@ import { dataProjets } from '../../data/dataProjects';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  data = dataProjets;
+  data = dataProjects;
 
   constructor() {}
 

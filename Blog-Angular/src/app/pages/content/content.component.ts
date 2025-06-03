@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import {dataProjets} from '../../data/dataProjects'
+import {dataProjects} from '../../data/dataProjects'
 
 @Component({
   selector: 'app-content',
@@ -23,7 +23,7 @@ export class ContentComponent implements OnInit {
       this.setValuesToComponent(this.ide)
   }
   setValuesToComponent(id:string|null){
-    const result = dataProjets.filter(article => article.Id== this.ide)[0]
+    const result = dataProjects.filter(article => article.Id== this.ide)[0]
     this.contentTitle = result.title
     this.contentDescription = result.description
     this.photoCover = result.photo

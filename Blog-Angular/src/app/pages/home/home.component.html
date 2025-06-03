@@ -6,7 +6,7 @@
                 [Id]="data[9].Id"
                 [photoCover]="data[9].photo"
                 [cardTitle]="data[9].title"
-                [cardDescription]="'Uma plataforma web de cursos e projetos para os alunos do IFTM, onde poderão se cadastrar, postar e assistir outros conteúdos criados por outros alunos e professores'">
+                [cardDescription]="'Feito em conjunto com colegas, uma plataforma web de cursos e projetos para os alunos do IFTM, onde poderão se cadastrar, postar e assistir conteúdos de outros alunos e professores'">
             </app-big-card>
         </div>
 
@@ -36,7 +36,7 @@
         </div>
 
         <div class="articles__others">
-            <ng-container *ngFor="let item of [data[0], data[14], data[11]]">
+            <ng-container *ngFor="let item of [data[0], data[5], data[11]]">
                 <app-small-card 
                     [Id]="item.Id"
                     [smallDescription]="item.title"
@@ -48,7 +48,7 @@
 
     <div class="container__articles">
         <div class="articles__others">
-            <ng-container *ngFor="let item of [data[5], data[2], data[7]]">
+            <ng-container *ngFor="let item of [data[14], data[2], data[7]]">
                 <app-small-card 
                     [Id]="item.Id"
                     [smallDescription]="item.title"
