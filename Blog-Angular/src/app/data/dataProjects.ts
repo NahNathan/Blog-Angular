@@ -10,19 +10,19 @@ export const dataProjects=[
         "Id":"2",
         "photo":"https://raw.githubusercontent.com/NahNathan/Emprestimo-de-Chaves/main/Doc/README_assets/insert_pg.png",
         "title":"Sistema de Empréstimo de Chaves",
-        "description":"Este projeto foi desenvolvido para a disciplina Desenvolvimento de Aplicações Web 1 e consiste em um programa web completo para o gerenciamento de empréstimos de chaves. Utilizamos Spring Boot (Java) e MongoDB para o back-end, e Svelte para o front-end, criando uma interface limpa e funcional. O software registra todas as atividades de empréstimo e devolução de chaves, permitindo um controle eficiente e seguro. Através deste projeto, aprimoramos nossas habilidades em integração de API, arquitetura de banco de dados e UI/UX, além de expandir nosso conhecimento em bancos de dados NoSQL. Foi desenvolvido em grupo com M4teusAlves, DevGustavus e GabrielaSRodrigues",
+        "description":"Este projeto foi desenvolvido para a disciplina Desenvolvimento de Aplicações Web 1 e consiste em um programa web completo para o gerenciamento de empréstimos de chaves. Utilizamos Spring Boot (Java) e MongoDB para o back-end, e Svelte para o front-end, criando uma interface limpa e funcional. O software registra todas as atividades de empréstimo e devolução de chaves, permitindo um controle eficiente e seguro. Através deste projeto, aprimoramos nossas habilidades em integração de uma API REST, arquitetura de banco de dados e UI/UX, além de expandir nosso conhecimento em bancos de dados NoSQL. Foi desenvolvido em grupo com M4teusAlves, DevGustavus e GabrielaSRodrigues",
         "link": "https://github.com/NahNathan/Emprestimo-de-Chaves"
     },
     {
         "Id":"3",
         "photo":"https://i.imgur.com/7GLZ3wC.png",
         "title":"Jeff Imóveis, gerenciamento de imóveis",
-        "description":"O projeto Jeff-Imóveis foi desenvolvido como parte da avaliação final da disciplina de Programação para Dispositivos Móveis do IFTM, em colaboração com luiz-felippelb. Este sistema permite o cadastro de imóveis, proprietários e inquilinos, oferecendo funcionalidades para visualização e edição desses dados. Além disso, possibilita o aluguel de imóveis aos inquilinos cadastrados, facilitando a gestão de propriedades de forma eficiente e integrada diretamente de dispositivos móveis.",
+        "description":"O aplicativo Jeff Imóveis foi desenvolvido como parte da avaliação final da disciplina de Programação para Dispositivos Móveis do IFTM, em colaboração com luiz-felippelb. Este sistema permite o cadastro de imóveis, proprietários e inquilinos, oferecendo funcionalidades para visualização e edição desses dados. Além disso, possibilita o aluguel de imóveis aos inquilinos cadastrados, facilitando a gestão de propriedades de forma eficiente e integrada diretamente de dispositivos móveis.",
         "link": "https://github.com/NahNathan/Jeff-Imoveis"
     },
     {
         "Id":"4",
-        "photo":"https://i.imgur.com/802ZQgU.png",
+        "photo":"https://i.imgur.com/9sfBSpH.png",
         "title":"Pokédex",
         "description":"Um projeto clássico para vários desenvolvedores. Este projeto foi desenvolvido em Angular e seu principal objetivo foi aprender a utilizar e consumir APIs externas. O projeto consome a PokémonAPI, e mostra dados do pokémon, assim como possibilitar pesquisar por um pokémon específico.",
         "link": "https://github.com/NahNathan/Pokedex"
