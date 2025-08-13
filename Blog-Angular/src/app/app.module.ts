@@ -13,6 +13,7 @@ import { TextCardComponent } from './components/text-card/text-card.component';
 import { STextCardComponent } from './components/s-text-card/s-text-card.component';
 import { TechsSliderComponent } from './components/techs-slider/techs-slider.component';
 import { TechsCardComponent } from './components/techs-card/techs-card.component';
+import { FooterBarComponent } from './components/footer-bar/footer-bar.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { TechsCardComponent } from './components/techs-card/techs-card.component
     TextCardComponent,
     STextCardComponent,
     TechsSliderComponent,
-    TechsCardComponent
+    TechsCardComponent,
+    FooterBarComponent
   ],
   imports: [
     BrowserModule,

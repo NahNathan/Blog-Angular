@@ -1,4 +1,4 @@
-.custom-footer {
+.custom-description {
     background-color:  var(--cor-fundo); 
     color: var(--cor-clara);
     padding: 5vh;
@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-.custom-footer::before {
+.custom-description::before {
     content: "";
     position: absolute;
     top: -30px; 
@@ -17,23 +17,23 @@
     clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%); 
 }
 
-.custom-footer__content {
+.custom-description__content {
     margin: 0 auto;
     background-color: var(--cor-fundo);
 }
 
-.custom-footer__content p {
+.custom-description__content p {
     font-size: 18px;
     text-align: left;
     margin-bottom: 20px;
     background-color: var(--cor-fundo);
 }
 
-.custom-footer__content h2{
+.custom-description__content h2{
     background-color: var(--cor-fundo);
 }
 @media screen and (max-width:1000px) {
-    .custom-footer__content p  {
+    .custom-description__content p  {
         font-size: 15px;
     }
 }

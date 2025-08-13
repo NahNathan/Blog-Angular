@@ -1,0 +1,29 @@
+.custom-footer {
+    background-color:  var(--cor-primaria); 
+    color: var(--cor-clara); 
+    padding: 3vh;
+    margin-top: 10vh;
+    position: relative;
+    text-align: right;
+}
+
+.custom-footer::before {
+    content: "";
+    position: absolute;
+    top: -30px; 
+    right: 0;
+    width: 30dvw; 
+    height: 31px; 
+    background-color: var(--cor-primaria);
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%); 
+}
+
+.custom-footer__content {
+    margin: 0 auto;
+    background-color: var(--cor-primaria);
+}
+
+
+.custom-footer__content h2{
+    background-color: var(--cor-primaria);
+}
