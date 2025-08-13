@@ -8,8 +8,31 @@ import { dataProjects } from '../../data/dataProjects';
 })
 export class HomeComponent implements OnInit {
   data = dataProjects;
+  constructor() { }
+  ngOnInit(): void { }
 
-  constructor() {}
+  truncateDescription(description: string, maxLength: number = 150): string {
+    if (!description) return '';
+    if (description.length <= maxLength) {
+      return description;
+    }
+    const truncated = description.substring(0, maxLength);
+    const lastSpaceIndex = truncated.lastIndexOf(' ');
+    return lastSpaceIndex > 0 
+      ? truncated.substring(0, lastSpaceIndex) + '...'
+      : truncated + '...';
+  }
 
-  ngOnInit(): void {}
+  //Dividir em grupos de 4
+  getProjectGroups(): any[][] {
+    const groups = [];
+    for (let i = 0; i < this.data.length; i += 4) {
+      groups.push(this.data.slice(i, i + 4));
+    }
+    return groups;
+  }
+
+  shouldReverse(groupIndex: number): boolean {
+    return groupIndex === 2;
+  }
 }

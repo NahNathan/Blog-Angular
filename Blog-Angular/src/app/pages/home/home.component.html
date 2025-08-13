@@ -1,96 +1,55 @@
 <app-menu-title></app-menu-title>
 <div class="container__page">
-    <div class="container__articles">
-        <div class="articles__main" *ngIf="data[9]">
-            <app-big-card 
-                [Id]="data[9].Id"
-                [photoCover]="data[9].photo"
-                [cardTitle]="data[9].title"
-                [cardDescription]="'Feito em conjunto com colegas, uma plataforma web de cursos e projetos para os alunos do IFTM, onde poderão se cadastrar, postar e assistir conteúdos de outros alunos e professores'">
-            </app-big-card>
-        </div>
-
-        <div class="articles__others">
-            <ng-container *ngFor="let item of [data[15], data[12], data[10]]">
-                <app-small-card 
-                    [Id]="item.Id"
-                    [smallDescription]="item.title"
-                    [smallPhoto]="item.photo">
-                </app-small-card>
-            </ng-container>
-        </div>
-    </div>
-
-    <hr>
-    <app-techs-slider>
-    </app-techs-slider>
-
-    <div class="container__articles">
-        <div class="articles__main" *ngIf="data[13]">
-            <app-big-card 
-                [Id]="data[13].Id"
-                [photoCover]="data[13].photo"
-                [cardTitle]="data[13].title"
-                [cardDescription]="'Um sistema completo de reconhecimento de ponto facial com um módulo web de gerenciamento completo para o RH, com integração com uma IA de análise facial e emocional, desenvolvido para a start-up Criativa'">
-            </app-big-card>
-        </div>
-
-        <div class="articles__others">
-            <ng-container *ngFor="let item of [data[0], data[5], data[11]]">
-                <app-small-card 
-                    [Id]="item.Id"
-                    [smallDescription]="item.title"
-                    [smallPhoto]="item.photo">
-                </app-small-card>
-            </ng-container>
-        </div>
-    </div>
-
-    <div class="container__articles">
-        <div class="articles__others">
-            <ng-container *ngFor="let item of [data[14], data[2], data[7]]">
-                <app-small-card 
-                    [Id]="item.Id"
-                    [smallDescription]="item.title"
-                    [smallPhoto]="item.photo">
-                </app-small-card>
-            </ng-container>
-        </div>
-
-        <div class="articles__main" *ngIf="data[1]">
-            <app-big-card 
-                [Id]="data[1].Id"
-                [photoCover]="data[1].photo"
-                [cardTitle]="data[1].title"
-                [cardDescription]="'Um sistema web para o gerenciamento e empréstimo de chaves de sala, feito para a matéria de Desenvolvmento Web'">
-            </app-big-card>
-        </div>
-    </div>
-
+  
+  <ng-container *ngFor="let group of getProjectGroups(); let groupIndex = index">
     
-    <app-text-card></app-text-card>
-    <app-s-text-card></app-s-text-card>
-    <hr>
-    <div class="container__articles">
-        <div class="articles__main" *ngIf="data[6]">
-            <app-big-card 
-                [Id]="data[6].Id"
-                [photoCover]="data[6].photo"
-                [cardTitle]="data[6].title"
-                [cardDescription]="'Um projeto simples de um mockup para entender e concretizar os conceitos do framework web Svelte'">
-            </app-big-card>
-        </div>
-
-        <div class="articles__others">
-            <ng-container *ngFor="let item of [data[4], data[3], data[8]]">
-                <app-small-card 
-                    [Id]="item.Id"
-                    [smallDescription]="item.title"
-                    [smallPhoto]="item.photo">
-                </app-small-card>
-            </ng-container>
-        </div>
+    <div class="container__articles" *ngIf="!shouldReverse(groupIndex) && group.length > 0">
+      <div class="articles__main" *ngIf="group[0]">
+        <app-big-card
+          [Id]="group[0].Id"
+          [photoCover]="group[0].photo"
+          [cardTitle]="group[0].title"
+          [cardDescription]="truncateDescription(group[0].description)">
+        </app-big-card>
+      </div>
+      <div class="articles__others">
+        <ng-container *ngFor="let item of group.slice(1)">
+          <app-small-card
+            [Id]="item.Id"
+            [smallDescription]="item.title"
+            [smallPhoto]="item.photo">
+          </app-small-card>
+        </ng-container>
+      </div>
     </div>
 
+    <div class="container__articles" *ngIf="shouldReverse(groupIndex) && group.length > 0">
+      <div class="articles__others">
+        <ng-container *ngFor="let item of group.slice(1)">
+          <app-small-card
+            [Id]="item.Id"
+            [smallDescription]="item.title"
+            [smallPhoto]="item.photo">
+          </app-small-card>
+        </ng-container>
+      </div>
+      <div class="articles__main" *ngIf="group[0]">
+        <app-big-card
+          [Id]="group[0].Id"
+          [photoCover]="group[0].photo"
+          [cardTitle]="group[0].title"
+          [cardDescription]="truncateDescription(group[0].description)">
+        </app-big-card>
+      </div>
+    </div>
+    <hr *ngIf="groupIndex === 0">
     
+    <app-techs-slider *ngIf="groupIndex === 0"></app-techs-slider>
+    
+    <ng-container *ngIf="groupIndex === 2">
+      <app-text-card></app-text-card>
+      <app-s-text-card></app-s-text-card>
+      <hr>
+    </ng-container>
+  </ng-container>
 </div>
