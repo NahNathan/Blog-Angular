@@ -19,4 +19,15 @@ export class MenuBarComponent {
       console.error('Erro ao copiar email para a área de transferência', err);
     });
   }
+
+  downloadCV(event: Event): void {
+    event.preventDefault();
+    const link = document.createElement('a');
+    link.href = 'assets/Curriculo.pdf';
+    link.download = 'Curriculo_Nathan_Rodrigues.pdf';
+    link.target = '_blank';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
 }

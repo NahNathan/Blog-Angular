@@ -1,19 +1,17 @@
 <app-menu-title></app-menu-title>
 <div class="container__page">
-  
-  <ng-container *ngFor="let group of getProjectGroups(); let groupIndex = index">
-    
-    <div class="container__articles" *ngIf="!shouldReverse(groupIndex) && group.length > 0">
-      <div class="articles__main" *ngIf="group[0]">
+  <ng-container *ngIf="projectGroups[0]">
+    <div class="container__articles">
+      <div class="articles__main" *ngIf="projectGroups[0][0]">
         <app-big-card
-          [Id]="group[0].Id"
-          [photoCover]="group[0].photo"
-          [cardTitle]="group[0].title"
-          [cardDescription]="truncateDescription(group[0].description)">
+          [Id]="projectGroups[0][0].Id"
+          [photoCover]="projectGroups[0][0].photo"
+          [cardTitle]="projectGroups[0][0].title"
+          [cardDescription]="truncateDescription(projectGroups[0][0].description)">
         </app-big-card>
       </div>
       <div class="articles__others">
-        <ng-container *ngFor="let item of group.slice(1)">
+        <ng-container *ngFor="let item of projectGroups[0].slice(1)">
           <app-small-card
             [Id]="item.Id"
             [smallDescription]="item.title"
@@ -22,36 +20,100 @@
         </ng-container>
       </div>
     </div>
-
-    <div class="container__articles" *ngIf="shouldReverse(groupIndex) && group.length > 0">
-      <div class="articles__others">
-        <ng-container *ngFor="let item of group.slice(1)">
-          <app-small-card
-            [Id]="item.Id"
-            [smallDescription]="item.title"
-            [smallPhoto]="item.photo">
-          </app-small-card>
-        </ng-container>
-      </div>
-      <div class="articles__main" *ngIf="group[0]">
-        <app-big-card
-          [Id]="group[0].Id"
-          [photoCover]="group[0].photo"
-          [cardTitle]="group[0].title"
-          [cardDescription]="truncateDescription(group[0].description)">
-        </app-big-card>
-      </div>
-    </div>
-    <hr *ngIf="groupIndex === 0">
-    
-    <app-techs-slider *ngIf="groupIndex === 0"></app-techs-slider>
-    
-    <ng-container *ngIf="groupIndex === 2">
-      <app-text-card></app-text-card>
-      <app-s-text-card></app-s-text-card>
-      <hr>
-    </ng-container>
-    
   </ng-container>
-  <app-footer-bar></app-footer-bar>
+
+  <hr>
+  <app-techs-slider></app-techs-slider>
+
+  <ng-container *ngIf="projectGroups[1]">
+    <div class="container__articles">
+      <div class="articles__main" *ngIf="projectGroups[1][0]">
+        <app-big-card
+          [Id]="projectGroups[1][0].Id"
+          [photoCover]="projectGroups[1][0].photo"
+          [cardTitle]="projectGroups[1][0].title"
+          [cardDescription]="truncateDescription(projectGroups[1][0].description)">
+        </app-big-card>
+      </div>
+      <div class="articles__others">
+        <ng-container *ngFor="let item of projectGroups[1].slice(1)">
+          <app-small-card
+            [Id]="item.Id"
+            [smallDescription]="item.title"
+            [smallPhoto]="item.photo">
+          </app-small-card>
+        </ng-container>
+      </div>
+    </div>
+  </ng-container>
+
+  <ng-container *ngIf="projectGroups[2]">
+    <div class="container__articles">
+      <div class="articles__others">
+        <ng-container *ngFor="let item of projectGroups[2].slice(1)">
+          <app-small-card
+            [Id]="item.Id"
+            [smallDescription]="item.title"
+            [smallPhoto]="item.photo">
+          </app-small-card>
+        </ng-container>
+      </div>
+      <div class="articles__main" *ngIf="projectGroups[2][0]">
+        <app-big-card
+          [Id]="projectGroups[2][0].Id"
+          [photoCover]="projectGroups[2][0].photo"
+          [cardTitle]="projectGroups[2][0].title"
+          [cardDescription]="truncateDescription(projectGroups[2][0].description)">
+        </app-big-card>
+      </div>
+    </div>
+  </ng-container>
+
+  <app-text-card></app-text-card>
+  <app-s-text-card></app-s-text-card>
+  <hr>
+
+  <ng-container *ngIf="projectGroups[3]">
+    <div class="container__articles">
+      <div class="articles__main" *ngIf="projectGroups[3][0]">
+        <app-big-card
+          [Id]="projectGroups[3][0].Id"
+          [photoCover]="projectGroups[3][0].photo"
+          [cardTitle]="projectGroups[3][0].title"
+          [cardDescription]="truncateDescription(projectGroups[3][0].description)">
+        </app-big-card>
+      </div>
+      <div class="articles__others">
+        <ng-container *ngFor="let item of projectGroups[3].slice(1)">
+          <app-small-card
+            [Id]="item.Id"
+            [smallDescription]="item.title"
+            [smallPhoto]="item.photo">
+          </app-small-card>
+        </ng-container>
+      </div>
+    </div>
+  </ng-container>
+
+  <ng-container *ngFor="let group of projectGroups.slice(4); let i = index">
+    <div class="container__articles">
+      <div class="articles__main" *ngIf="group[0]">
+        <app-big-card
+          [Id]="group[0].Id"
+          [photoCover]="group[0].photo"
+          [cardTitle]="group[0].title"
+          [cardDescription]="truncateDescription(group[0].description)">
+        </app-big-card>
+      </div>
+      <div class="articles__others">
+        <ng-container *ngFor="let item of group.slice(1)">
+          <app-small-card
+            [Id]="item.Id"
+            [smallDescription]="item.title"
+            [smallPhoto]="item.photo">
+          </app-small-card>
+        </ng-container>
+      </div>
+    </div>
+  </ng-container>
 </div>
