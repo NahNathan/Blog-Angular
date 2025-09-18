@@ -28,7 +28,7 @@
   
   .container__menu-bar ul li a i {
     color: var(--cor-clara);
-    transition: all 0.3s ease-out;
+    transition: color var(--dur) var(--ease-out), transform var(--dur-fast) var(--ease-out);
     width: 35px;
     height: 35px;
     display: flex;
@@ -39,12 +39,36 @@
   
   .container__menu-bar ul li a i:hover {
     color: var(--cor-primaria);
+    transform: translateY(-2px);
   }
   
   li {
     position: relative;
     display: block;
   }
+
+/* underline animado no hover do link */
+.container__menu-bar ul li a {
+    position: relative;
+    padding-bottom: 2px;
+}
+.container__menu-bar ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background: currentColor;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform var(--dur) var(--ease-out);
+}
+.container__menu-bar ul li a:hover::after,
+.container__menu-bar ul li a:focus-visible::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
   
   @keyframes fadeIn {
     from {

@@ -7,11 +7,12 @@
     flex-direction: column;
     justify-content: flex-start;
     padding: 10px;
-    transition: all 0.3s ease-out;
+    transition: transform var(--dur) var(--ease-out), box-shadow var(--dur) var(--ease-out);
 }
 
 .container__big-card:hover{
-    box-shadow: var(--cor-secundaria) 0px 0px 30px;
+    transform: translateY(-2px) scale(1.01);
+    box-shadow: 0 6px 24px rgba(0,0,0,.14);
 }
 
 .big-card__title > h1 {
@@ -27,4 +28,10 @@
     width: 100%; 
     min-width: 40px; 
     max-width: 100%; 
+    transition: transform var(--dur) var(--ease-out), box-shadow var(--dur) var(--ease-out);
+}
+
+.container__big-card:hover .big-card__photo > img {
+    transform: scale(1.03);
+    box-shadow: 0 10px 28px rgba(0,129,112,.35), 0 0 0 1px rgba(0,129,112,.20);
 }

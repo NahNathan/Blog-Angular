@@ -11,6 +11,18 @@
     font-weight: bolder;
     display: flex;
     justify-content: center;
+    overflow: hidden;
+}
+
+.container_menu-title>h1 span {
+    display: inline-block;
+    transform: translateY(10px);
+    opacity: 0;
+    animation: title-reveal 600ms var(--ease-out) forwards;
+}
+
+@keyframes title-reveal {
+    to { transform: translateY(0); opacity: 1; }
 }
 
 .container_menu-title>h3 {
