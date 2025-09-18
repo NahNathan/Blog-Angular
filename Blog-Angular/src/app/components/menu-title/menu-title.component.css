@@ -13,19 +13,19 @@
     justify-content: center;
 }
 
-.container_menu-title>h2 {
+.container_menu-title>h3 {
     margin: 10px;
     font-weight: bold;
     display: flex;
     justify-content: center;
+    padding: 10px 40px;
     
 }
-.container_menu-title>h3{
+.container_menu-title>h4{
     margin: 10px;
     font-weight: normal;
     display: flex;
     justify-content: center;
-    text-align: center;
     padding: 10px 40px;
 }
 
@@ -33,7 +33,7 @@
     .container_menu-title>h1 {
         font-size: 37px;
     }
-    .container_menu-title>h3 {
+    .container_menu-title>h4 {
         text-align: left;
         margin: 0;
         padding: 0;
