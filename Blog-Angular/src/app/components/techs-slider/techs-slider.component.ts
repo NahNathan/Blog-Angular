@@ -36,7 +36,7 @@ export class TechsSliderComponent implements OnInit {
     this.stopAutoSlide();
     this.slideInterval = setInterval(() => {
       this.nextSlide();
-    }, 9000);
+    }, 5000);
   }
 
   stopAutoSlide(): void {

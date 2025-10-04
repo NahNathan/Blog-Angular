@@ -10,9 +10,9 @@ export const dataTechs = [
     image: "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg"
   },
   {
-    title: "React",
-    description: "Atuação em projetos web e mobile utilizando React e React Native, com foco em interfaces dinâmicas e experiência do usuário.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+    title: "Next.js",
+    description: "Desenvolvimento utilizando Next.js, um framework fullstack baseado em React para desenvolvimento de aplicações web modernas e escaláveis.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg"
   },
   {
     title: "Kotlin",
@@ -20,9 +20,9 @@ export const dataTechs = [
     image: "https://icon.icepanel.io/Technology/svg/Kotlin.svg"
   },
   {
-    title: "Next.js",
-    description: "Desenvolvimento de aplicações web utilizando Next.js, com foco em performance e experiência do usuário.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg"
+    title: "Svelte",
+    description: "Pessoalmente meu framework preferido de desenvolvimento web para projetos pessoais devido à sua simplicidade e rapidez, especialmente quando usado com seu framework fullstack SvelteKit.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg"
   },
   {
     title: "Spring",
@@ -30,9 +30,9 @@ export const dataTechs = [
     image: "https://spring.io/img/spring.svg"
   },
   {
-    title: "Svelte",
-    description: "Pessoalmente meu framework preferido de desenvolvimento web para projetos pessoais devido à sua simplicidade e rapidez, especialmente quando usado com seu framework fullstack SvelteKit.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg"
+    title: "React",
+    description: "Atuação em projetos web e mobile utilizando React e React Native, com foco em interfaces dinâmicas e experiência do usuário.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
   },
   {
     title: "C#",
