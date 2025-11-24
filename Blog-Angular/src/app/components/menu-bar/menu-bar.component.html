@@ -3,13 +3,14 @@
         <li><a target="_blank" href="https://www.linkedin.com/in/nathan-rodrigues-dos-santos-422001147/"><i class="fa-brands fa-linkedin"></i></a></li>
         <li><a target="_blank" href="https://github.com/NahNathan"><i class="fa-brands fa-github"></i></a></li>
         <li><a href="#" (click)="downloadCV($event)"><i class="fas fa-file-alt"></i></a></li>
-        <li><a target="_blank" href="https://youtu.be/dQw4w9WgXcQ?si=RMvcipvzX5qghtMq"><i class="fa-brands fa-youtube"></i></a></li>
+        <!--<li><a target="_blank" href="https://youtu.be/dQw4w9WgXcQ?si=RMvcipvzX5qghtMq"><i class="fa-brands fa-youtube"></i></a></li>-->
         <li>
             <a href="#" (click)="copyEmailToClipboard($event)">
                 <i class="fa fa-envelope"></i>
             </a>
             <span class="mailto-message" *ngIf="showMessage">Email copiado para a área de transferência.</span>
         </li>
-        
+        <li><a  href="#" (click)="showQRCode($event)"><i class="fa-solid fa-qrcode"></i></a></li>
     </ul>
 </div>
+<app-qr-modal [isVisible]="showQRCodeModal" (closeModal)="closeQRCodeModal()"></app-qr-modal>

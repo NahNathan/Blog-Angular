@@ -14,6 +14,7 @@ import { STextCardComponent } from './components/s-text-card/s-text-card.compone
 import { TechsSliderComponent } from './components/techs-slider/techs-slider.component';
 import { TechsCardComponent } from './components/techs-card/techs-card.component';
 import { FooterBarComponent } from './components/footer-bar/footer-bar.component';
+import { QrModalComponent } from './components/qr-modal/qr-modal.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { FooterBarComponent } from './components/footer-bar/footer-bar.component
     STextCardComponent,
     TechsSliderComponent,
     TechsCardComponent,
-    FooterBarComponent
+    FooterBarComponent,
+    QrModalComponent
   ],
   imports: [
     BrowserModule,

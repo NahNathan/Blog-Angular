@@ -6,6 +6,7 @@
     height: 100%;
     margin-top: 0;
     padding-top: 15px;
+    z-index: 1000;
   }
   
   .container__menu-bar ul {
@@ -91,9 +92,9 @@
     padding: 5px;
     border-radius: 5px;
     display: block;
-    z-index: 1000;
     margin-left: 10px;
     font-size: 13px;
     color: var(--cor-secundaria);
     animation: fadeIn 0.5s ease-out;
+    z-index: 5000;
   }

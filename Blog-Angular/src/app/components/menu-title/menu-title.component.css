@@ -43,11 +43,7 @@
 
 @media screen and (max-width:600px){
     .container_menu-title>h1 {
-        font-size: 37px;
+        font-size: 40px;
     }
-    .container_menu-title>h4 {
-        text-align: left;
-        margin: 0;
-        padding: 0;
-    }
+
 }

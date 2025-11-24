@@ -1,3 +1,9 @@
+a{
+    color: var(--cor-fundo); 
+    font-weight: bold;
+    background-color:  var(--cor-secundaria); 
+}
+
 .custom-description {
     background-color:  var(--cor-secundaria); 
     color: var(--cor-clara); 
