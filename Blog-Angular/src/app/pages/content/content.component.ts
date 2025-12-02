@@ -15,6 +15,7 @@ export class ContentComponent implements OnInit, OnDestroy {
   contentTitle:string=""
   contentDescription=""
   contentLink=""
+  language: string = 'pt';
   private ide:string|null="0"
   private languageSubscription?: Subscription;
 
@@ -24,13 +25,15 @@ export class ContentComponent implements OnInit, OnDestroy {
   ){}
   
   ngOnInit(): void {
+    this.language = this.languageService.getCurrentLanguage();
     this.route.paramMap.subscribe( value=>
       this.ide=value.get("Id")
     )
     this.setValuesToComponent(this.ide);
     
     this.languageSubscription = this.languageService.language$.subscribe(
-      () => {
+      (lang) => {
+        this.language = lang;
         this.setValuesToComponent(this.ide);
       }
     );
