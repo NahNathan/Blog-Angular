@@ -1,9 +1,17 @@
-<div class="container_menu-title">
+<div *ngIf="language=='pt'" class="container_menu-title">
     <hr>
     <h1 (load)="randomizeLetters()" data-value="Bem Vindo!"><span>Bem Vindo!</span></h1><br>
 
-
     <h3>Sou Nathan Rodrigues, um desenvolvedor full stack com forte interesse em aplicações mobile, e aqui estão alguns dos meus projetos pessoais.</h3>
     <h4>Alguns deles foram desenvolvidos ao longo da minha trajetória profissional, outros durante o curso de Análise e Desenvolvimento de Sistemas no IFTM Uberaba, onde me formei, e vários surgiram como desafios pessoais para aprofundar minhas habilidades. Fique à vontade para explorar minhas ideias e soluções. 👾 Meus contatos estão na barra lateral.</h4>
+    <hr>
+</div>
+
+<div *ngIf="language=='en'" class="container_menu-title">
+    <hr>
+    <h1 (load)="randomizeLetters()" data-value="Welcome!"><span>Welcome!</span></h1><br>
+
+    <h3>I'm Nathan Rodrigues, a full stack developer with a strong interest in mobile applications, and here are some of my personal projects.</h3>
+    <h4>Some of them were developed along my professional journey, others during the Systems Analysis and Development course at IFTM Uberaba, where I graduated, and many others arose as personal challenges to deepen my skills. Feel free to explore my ideas and solutions. 👾 My contacts are in the sidebar.</h4>
     <hr>
 </div>

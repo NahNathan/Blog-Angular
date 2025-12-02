@@ -8,9 +8,12 @@
             <a href="#" (click)="copyEmailToClipboard($event)">
                 <i class="fa fa-envelope"></i>
             </a>
-            <span class="mailto-message" *ngIf="showMessage">Email copiado para a área de transferência.</span>
+            <span class="mailto-message" *ngIf="showMessage">{{ language === 'pt' ? 'Email copiado para a área de transferência.' : 'Email copied to clipboard.' }}</span>
         </li>
         <li><a  href="#" (click)="showQRCode($event)"><i class="fa-solid fa-qrcode"></i></a></li>
+        
+        <li *ngIf="language=='pt'" ><a href="#" (click)="changeToEnglish($event)">🇬🇧</a></li>
+        <li *ngIf="language=='en'" ><a href="#" (click)="changeToPortuguese($event)">🇧🇷</a></li>
     </ul>
 </div>
 <app-qr-modal [isVisible]="showQRCodeModal" (closeModal)="closeQRCodeModal()"></app-qr-modal>

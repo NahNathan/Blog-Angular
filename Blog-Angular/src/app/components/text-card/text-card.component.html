@@ -1,4 +1,4 @@
-<div class="custom-description">
+<div *ngIf="language=='pt'" class="custom-description">
     <div class="custom-description__content">
         <h2>Sobre mim</h2>
         <p>
@@ -9,6 +9,21 @@
             código vai além de funcionar: ele deve ser limpo, fácil de entender e contribuir para que o projeto cresça
             de forma saudável. Curto trocar ideias sobre tecnologia, experimentar soluções e, principalmente, ver o
             resultado do trabalho impactando positivamente as pessoas.
+        </p>
+    </div>
+</div>
+
+<div *ngIf="language=='en'" class="custom-description">
+    <div class="custom-description__content">
+        <h2>About me</h2>
+        <p>
+            Hello! I'm passionate about technology and software development. I graduated in Systems Analysis and
+            Development from IFTM and currently work as a full-stack developer at <a target="_blank"
+                href="https://www.codesquare.com.br">Codesquare</a>. I always enjoy learning something new, whether it's
+            a technology, framework, or even a different approach to problem-solving. I believe that good code goes
+            beyond just working: it should be clean, easy to understand, and contribute to the healthy growth of the
+            project. I like exchanging ideas about technology, experimenting with solutions and, most importantly,
+            seeing the results of the work positively impact people's lives.
         </p>
     </div>
 </div>

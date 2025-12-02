@@ -1,8 +1,16 @@
-<div class="custom-description">
+<div *ngIf="language=='pt'" class="custom-description">
     <div class="custom-description__content">
         <p>Sou muito interessado em desenvolvimento web, especialmente no frontend, e também gosto bastante de
             desenvolvimento mobile. Tenho
             experiência prática com Angular, Flutter, React Native, Spring Boot, Kotlin e Git. Estou sempre em busca de novos
             aprendizados e de aprimorar minhas habilidades, e gosto de enfrentar desafios que me façam crescer 🚀</p>
+    </div>
+</div>
+
+<div *ngIf="language=='en'" class="custom-description">
+    <div class="custom-description__content">
+        <p>I'm very interested in web development, especially in the frontend, and I also like mobile development a lot. I have
+            practical experience with Angular, Flutter, React Native, Spring Boot, Kotlin and Git. I'm always looking for new
+            learning and to improve my skills, and I like to face challenges that make me grow 🚀</p>
     </div>
 </div>

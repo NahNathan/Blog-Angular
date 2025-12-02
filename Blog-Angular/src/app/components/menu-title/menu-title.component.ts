@@ -1,4 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Subscription } from 'rxjs';
+import { LanguageService } from '../../services/language.service';
 
 @Component({
   selector: 'app-menu-title',
@@ -9,20 +11,47 @@ export class MenuTitleComponent implements OnInit, OnDestroy {
   private letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   private interval: any;
 
-  constructor() {}
+  constructor(private languageService: LanguageService) {}
+
+  language: string = 'pt';
+  private languageSubscription?: Subscription;  
 
   ngOnInit(): void {
-    this.randomizeLetters(); // Chamada da função ao inicializar o componente
+    this.language = this.languageService.getCurrentLanguage();
+    this.languageSubscription = this.languageService.language$.subscribe(
+      (lang) => {
+        if (this.interval)
+          clearInterval(this.interval);
+
+        this.language = lang;
+        setTimeout(() => {
+          this.randomizeLetters();
+        }, 100);
+      }
+    );
+
+    setTimeout(() => {
+      this.randomizeLetters();
+    }, 100);
   }
 
   ngOnDestroy(): void {
     if (this.interval) {
       clearInterval(this.interval);
     }
+    if (this.languageSubscription) {
+      this.languageSubscription.unsubscribe();
+    }
   }
 
   randomizeLetters(): void {
-    const target = document.querySelector('h1[data-value="Bem Vindo!"]') as HTMLElement; // Seleciona o elemento diretamente
+    const textToAnimate = this.language === 'pt' ? 'Bem Vindo!' : 'Welcome!';
+    const target = document.querySelector(`h1[data-value="${textToAnimate}"]`) as HTMLElement;
+    
+    if (!target) {
+      return;
+    }
+
     const originalText = target.getAttribute('data-value')!;
     let iteration = 0;
 
@@ -43,7 +72,7 @@ export class MenuTitleComponent implements OnInit, OnDestroy {
 
       if (iteration >= originalText.length) {
         clearInterval(this.interval);
-        target.innerText = originalText; // Restaura o texto original no fim
+        target.innerText = originalText;
       }
     }, 50);
   }

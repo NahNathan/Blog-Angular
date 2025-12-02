@@ -2,7 +2,8 @@
   <button class="nav-btn left" (click)="prevSlide()">&#10094;</button>
 
   <div class="tech-content">
-    <h2>Tecnologias que tenho experiência</h2>
+    <h2 *ngIf="language === 'pt'">Tecnologias que tenho experiência</h2>
+    <h2 *ngIf="language === 'en'">Technologies I have experience with</h2>
     <div [ngClass]="animationClass">
       <h3>{{ techs[currentIndex].title }}</h3>
       <img [src]="techs[currentIndex].image" alt="{{ techs[currentIndex].title }}">
