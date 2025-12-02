@@ -1,4 +1,4 @@
 export const environment = {
     production: true,
-    apiUrl: 'https://nathanrds.com.br/'  
-  };
+    apiUrl: 'https://nahnathan.github.io/Blog-Angular/' 
+  }; 
