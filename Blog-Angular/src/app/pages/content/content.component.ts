@@ -53,7 +53,7 @@ export class ContentComponent implements OnInit, OnDestroy {
     this.seoService.updateSeoData({
       description: description,
       image: this.photoCover || undefined,
-      url: `https://nahnathan.github.io/Blog-Angular/content/${this.ide}`,
+      url: `https://nathanrds.com.br/content/${this.ide}`,
       type: 'article',
       keywords: `${this.contentTitle}, projeto, desenvolvimento, ${this.language === 'en' ? 'web development' : 'desenvolvimento web'}`
     });

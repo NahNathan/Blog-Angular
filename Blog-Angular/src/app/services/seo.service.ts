@@ -14,8 +14,8 @@ export interface SeoData {
   providedIn: 'root'
 })
 export class SeoService {
-  private baseUrl = 'https://nahnathan.github.io/Blog-Angular';
-  private defaultImage = 'https://nahnathan.github.io/Blog-Angular/assets/qrcode.png';
+  private baseUrl = 'https://nathanrds.com.br';
+  private defaultImage = 'https://nathanrds.com.br/assets/qrcode.png';
   private defaultTitle = 'Nathan 『RdS』';
   private defaultDescription = 'Portfólio profissional de Nathan Rodrigues dos Santos, desenvolvedor web especializado em Angular, React, Java e Kotlin. Conheça meus projetos, tecnologias e experiência em desenvolvimento de software.';
 
