@@ -4,6 +4,7 @@ import { Subscription } from 'rxjs';
 import { dataProjects } from '../../data/dataProjects';
 import { dataProjects as dataProjectsEn } from '../../data/dataProjectsEn';
 import { LanguageService } from '../../services/language.service';
+import { SeoService } from '../../services/seo.service';
 
 @Component({
   selector: 'app-content',
@@ -21,22 +22,41 @@ export class ContentComponent implements OnInit, OnDestroy {
 
   constructor(
     private route:ActivatedRoute,
-    private languageService: LanguageService
+    private languageService: LanguageService,
+    private seoService: SeoService
   ){}
   
   ngOnInit(): void {
     this.language = this.languageService.getCurrentLanguage();
-    this.route.paramMap.subscribe( value=>
-      this.ide=value.get("Id")
-    )
-    this.setValuesToComponent(this.ide);
+    this.route.paramMap.subscribe( value=> {
+      this.ide=value.get("Id");
+      this.setValuesToComponent(this.ide);
+      this.updateSeo();
+    });
     
     this.languageSubscription = this.languageService.language$.subscribe(
       (lang) => {
         this.language = lang;
         this.setValuesToComponent(this.ide);
+        this.updateSeo();
       }
     );
+  }
+
+  private updateSeo(): void {
+    if (!this.contentTitle) return;
+    
+    const description = this.contentDescription.length > 160 
+      ? this.contentDescription.substring(0, 157) + '...'
+      : this.contentDescription;
+    
+    this.seoService.updateSeoData({
+      description: description,
+      image: this.photoCover || undefined,
+      url: `https://nahnathan.github.io/Blog-Angular/content/${this.ide}`,
+      type: 'article',
+      keywords: `${this.contentTitle}, projeto, desenvolvimento, ${this.language === 'en' ? 'web development' : 'desenvolvimento web'}`
+    });
   }
 
   ngOnDestroy(): void {
@@ -49,10 +69,12 @@ export class ContentComponent implements OnInit, OnDestroy {
     const currentLanguage = this.languageService.getCurrentLanguage();
     const data = currentLanguage === 'en' ? dataProjectsEn : dataProjects;
     const result = data.filter(article => article.Id== this.ide)[0]
-    this.contentTitle = result.title
-    this.contentDescription = result.description
-    this.photoCover = result.photo
-    this.contentLink= result.link
+    if (result) {
+      this.contentTitle = result.title
+      this.contentDescription = result.description
+      this.photoCover = result.photo
+      this.contentLink= result.link
+    }
   }
 
 }

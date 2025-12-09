@@ -2,7 +2,7 @@
     <div class="container__small-card">
 
         <div class="small-card__photo">
-            <img src={{smallPhoto}} alt="Imagem do projeto" srcset="">
+            <img src={{smallPhoto}} [alt]="smallDescription ? 'Imagem do projeto ' + smallDescription : 'Imagem do projeto'" loading="lazy" srcset="">
         </div>
         <div class="small-card__title">
             <h1>{{smallDescription}}</h1>

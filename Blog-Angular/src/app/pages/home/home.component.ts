@@ -3,6 +3,7 @@ import { Subscription } from 'rxjs';
 import { dataProjects } from '../../data/dataProjects';
 import { dataProjects as dataProjectsEn } from '../../data/dataProjectsEn';
 import { LanguageService } from '../../services/language.service';
+import { SeoService } from '../../services/seo.service';
 
 @Component({
   selector: 'app-home',
@@ -15,18 +16,38 @@ export class HomeComponent implements OnInit, OnDestroy {
   projectGroups: any[][] = [];
   private languageSubscription?: Subscription;
 
-  constructor(private languageService: LanguageService) { }
+  constructor(
+    private languageService: LanguageService,
+    private seoService: SeoService
+  ) { }
 
   ngOnInit(): void {
     this.loadData();
     this.projectGroups = this.getProjectGroups();
+    this.updateSeo();
     
     this.languageSubscription = this.languageService.language$.subscribe(
       (lang) => {
         this.loadData();
         this.projectGroups = this.getProjectGroups();
+        this.updateSeo();
       }
     );
+  }
+
+  private updateSeo(): void {
+    const currentLanguage = this.languageService.getCurrentLanguage();
+    const isEnglish = currentLanguage === 'en';
+    
+    this.seoService.updateSeoData({
+      description: isEnglish 
+        ? 'Professional portfolio of Nathan Rodrigues dos Santos, web developer specialized in Angular, React, Java and Kotlin. Discover my projects, technologies and software development experience.'
+        : 'Portfólio profissional de Nathan Rodrigues dos Santos, desenvolvedor web especializado em Angular, React, Java e Kotlin. Conheça meus projetos, tecnologias e experiência em desenvolvimento de software.',
+      keywords: isEnglish
+        ? 'Nathan Rodrigues, web developer, Angular, React, Java, Kotlin, portfolio, programmer, software development, frontend, backend, fullstack'
+        : 'Nathan Rodrigues, desenvolvedor web, Angular, React, Java, Kotlin, portfólio, programador, desenvolvimento de software, frontend, backend, fullstack',
+      url: 'https://nathanrds.com.br/'
+    });
   }
 
   ngOnDestroy(): void {

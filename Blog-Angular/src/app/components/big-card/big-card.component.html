@@ -2,7 +2,8 @@
     <div class="container__big-card">
         <div class="big-card__photo">
             <img src={{photoCover}} 
-            alt="Imagem do projeto" 
+            [alt]="cardTitle ? 'Imagem do projeto ' + cardTitle : 'Imagem do projeto'" 
+            loading="lazy"
             srcset="">
         </div>
         <div class="big-card__title">
