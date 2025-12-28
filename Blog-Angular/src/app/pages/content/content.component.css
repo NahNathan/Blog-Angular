@@ -1,4 +1,3 @@
-/* Estilos para a tela completa */
 .container__content {
     width: calc(100% - 60px);
     overflow-x: hidden;
@@ -15,10 +14,9 @@
 
 .back-button{
     background-color: var(--cor-secundaria);
-
     margin: 15px;
     padding: 8px;
-    border-radius: 15%;
+    border-radius: 15px;
     transition: all 0.3s ease-out;
 }
 
@@ -37,29 +35,31 @@
 
 .content__cover > img {
     max-width: 100%; 
-    width: 500px;
+    width: 50vw;
     height: auto;
     border-radius: 5px;
     box-shadow: 1px 0px 10px black;
 }
 
-/* Ajustes para telas menores (mobile) */
-@media (max-width: 768px) {
+
+@media (max-width: 600px) {
     .container__content {
         width: calc(100% - 60px);
         padding: 10px;
         margin-left: 60px;
     }
 
+    .content__title >h1{
+        font-size: 1.7rem;
+    }
+
     .content__cover > img {
-        width: 90%; /* A imagem ocupa toda a largura da tela */
-        height: auto; /* Mantém a proporção correta da imagem */
-        border-radius: 5px;
+        width: 70vw; 
         margin-left: 10px;
     }
 
     .content__description > p {
-        font-size: 1em; /* Reduz um pouco o tamanho da fonte para telas menores */
+        font-size: 0.8rem; 
         margin: 10px;
     }
 

@@ -6,19 +6,18 @@
         <i class="fas fa-arrow-left"></i> Back
     </a>
 
+    <div class="content__title">
+        <h1>{{contentTitle}}</h1>
+    </div>
 
     <div class="content__cover">
         <img src="{{photoCover}}" [alt]="contentTitle ? 'Imagem de capa do projeto ' + contentTitle : 'Imagem do projeto'" loading="eager">
     </div>
-
-    <div class="content__title">
-        <h1>{{contentTitle}}</h1>
-        <hr>
-    </div>
-
+    <hr>
     <div class="content__description">
         <p>{{contentDescription}}</p>
     </div>
+    <hr>
     <div class="content__link">
         <span *ngIf="language === 'pt'">Link para o Projeto:</span><span *ngIf="language === 'en'">Project Link:</span><a href="{{contentLink}}" target="_blank"> {{contentLink}}</a>
     </div>

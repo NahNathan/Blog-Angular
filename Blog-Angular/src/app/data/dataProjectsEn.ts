@@ -47,14 +47,12 @@ export const dataProjects=[
         "title":"Codiub Portal",
         "description":"A standout project during my internship at Codiub, I contributed largely to developing a new interface for the company's main portal. Developed using an internal PHP framework, the new website has a more intuitive, responsive, and modern interface, containing all services and necessary and relevant information for citizens.",
         "link": "https://www.codiub.com.br/"
-    },
-    
-    
+    },    
     {
         "Id":"8",
         "photo":"https://i.imgur.com/TciQcbx.png",
         "title":"My Experience at IFTM Hackathon 2024",
-        "description":"Participating in the IFTM Hackathon 2024 was an incredible and enriching experience. It was an intense challenge that allowed me to apply technical knowledge, work in teams under pressure, and develop innovative solutions in a competitive environment. The hackathon provided practical learning, networking with other developers, and the opportunity to create projects that can make a difference. It was an experience that added a lot both professionally and personally.",
+        "description":"While studying Analysis and Systems Development at IFTM Uberaba Parque Tecnológico, I participated in the Hackathon IFTM 2024, which was an amazing and enriching experience. The main challenge for two full days was to develop a practical technological solution aimed at the education sector, with the requirement to incorporate Artificial Intelligence into some aspect of the project. Our proposal was SAPI, or the Intelligent Pedagogical Assistance System, an educational platform designed to support teachers by assisting in the creation of various classroom components such as lesson plans, exams, questions, activities, and more. Although our proposal did not achieve the success we had hoped for, after the hackathon, we participated in the Fator S Agita event, sponsored by Sebrae. There, we learned in detail how to conceptualize and plan a project like the one we developed. Without a doubt, this experience was incredibly informative and innovative, and the knowledge I gained was invaluable.",
         "link": "https://iftm.edu.br/hackathon/2024/"
     },
     {
