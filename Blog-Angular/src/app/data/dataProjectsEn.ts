@@ -39,7 +39,7 @@ export const dataProjects=[
         "photo":"https://i.imgur.com/vSLZkQm.png",
         "title":"CafTracker",
         "description":"CafTracker is an Android application I developed to register and track caffeine consumption in a simple, fully offline way. The app allows users to register beverages with their caffeine values, log consumption by specifying quantity and time, and view daily and weekly summaries. All data is stored locally using SQLite, with no backend or authentication required. The application was developed in Kotlin, using Jetpack Compose for the UI and a layered architecture to separate business logic, data, and presentation. The project focuses on learning, code organization, and the use of modern Android ecosystem practices.",
-        "link": "https://github.com/NahNathan"
+        "link": "https://github.com/NahNathan/CafTracker"
     },
     {
         "Id":"7",
