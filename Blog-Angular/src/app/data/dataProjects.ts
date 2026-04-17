@@ -8,15 +8,15 @@ export const dataProjects=[
     },
     {
         "Id":"2",
-        "photo":"https://i.imgur.com/f8CypoD.png",
+        "photo":"https://i.imgur.com/KVPyN4h.png",
         "title":"Proflix",
         "description":"Sistema escolar completo que desenvolvi na Codesquare, o Proflix é uma plataforma educacional escolar que oferece, criação de relatórios, diário de classe, calendário escolar, cadastro completo de dados e matrícula e diversas outras funcionalidades essenciais para uso escolar. O sistema foi projetado para uso por professores, diretores, responsáveis e secretários, e outros funcionários. O sistema também oferece uma integração com material gerado e otimizado por IA, onde o professor pode gerar provas, questões, atividades, correção de provas, plano de aula, conteúdo explicativo e diversas outras opções . Desenvolvi completamente o front-end utilizando Next.js e integrei com o back-end em Node.js, utilizando as melhores técnicas e boas práticas do framework e SSR.",
         "link": "https://codesquare.com.br/"
     },
     {
         "Id":"3",
-        "photo":"https://i.imgur.com/BchZvHR.png",
-        "title":"Sistema Pipeline THE",
+        "photo":"https://i.imgur.com/vkvXH1R.png",
+        "title":"Sistema de Gerenciamento THE Toys",
         "description":"Sistema que desenvolvi para uma empresa de enchimento de pelúcias, o Pipeline THE foi criado para organização e gerenciamento completo de todo o workflow da empresa. O sistema tem funcionalidades para controle de funcionários, produção, estoque, criação de relatório, resumo de produção por usuário, e todas as etapas do processo de fabricação, enchimento e transporte. Foi desenvolvido full stack utilizando SvelteKit, meu framework preferido para desenvolvimento por sua simplicidade e robustez no desenvolvimento, sempre considerando eficiência no código e experiência do usuário.",
         "link": "https://github.com/NahNathan/"
     },

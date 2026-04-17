@@ -8,15 +8,15 @@ export const dataProjects=[
     },
     {
         "Id":"2",
-        "photo":"https://i.imgur.com/f8CypoD.png",
+        "photo":"https://i.imgur.com/KVPyN4h.png",
         "title":"Proflix",
         "description":"Proflix is a complete school management system I developed at Codesquare. It is an educational platform that provides features such as report generation, class journals, school calendars, full data registration, student enrollment, and many other essential school-related functionalities. The system was designed to be used by teachers, principals, guardians, secretaries, and other staff members. It also includes integration with AI-generated and optimized educational materials, allowing teachers to create exams, questions, activities, exam corrections, lesson plans, explanatory content, and several other resources. I fully developed the front end using Next.js and integrated it with a Node.js backend, applying best practices of the framework and server-side rendering (SSR).",
         "link": "https://codesquare.com.br/"
     },
     {
         "Id":"3",
-        "photo":"https://i.imgur.com/BchZvHR.png",
-        "title":"THE Pipeline System",
+        "photo":"https://i.imgur.com/vkvXH1R.png",
+        "title":"THE Toys Web System",
         "description":"Pipeline THE is a system I developed for a plush filling company, created to organize and manage the company’s entire workflow. The system includes features for employee management, production tracking, inventory control, report generation, production summaries per user, and all stages of the manufacturing, filling, and transportation processes. It was developed as a full stack application using SvelteKit, my preferred framework due to its simplicity and robustness, always prioritizing code efficiency and user experience.",
         "link": "https://github.com/NahNathan/"
     },
