@@ -15,7 +15,7 @@
     box-shadow: 0 6px 24px rgba(0,0,0,.14);
 }
 
-.big-card__title > h1 {
+.big-card__title > h2 {
     font-size: 20px; 
     margin-top: 15px;
 }

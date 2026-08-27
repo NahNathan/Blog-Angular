@@ -1,5 +1,5 @@
 <div class="techs-slider">
-  <button class="nav-btn left" (click)="prevSlide()">&#10094;</button>
+  <button type="button" class="nav-btn left" (click)="prevSlide()" [attr.aria-label]="language === 'pt' ? 'Tecnologia anterior' : 'Previous technology'"><span aria-hidden="true">&#10094;</span></button>
 
   <div class="tech-content">
     <h2 *ngIf="language === 'pt'">Tecnologias que tenho experiência</h2>
@@ -10,7 +10,7 @@
       <p>{{ techs[currentIndex].description }}</p>
     </div>
   </div>
-  <button class="nav-btn right" (click)="nextSlide()">&#10095;</button>
+  <button type="button" class="nav-btn right" (click)="nextSlide()" [attr.aria-label]="language === 'pt' ? 'Próxima tecnologia' : 'Next technology'"><span aria-hidden="true">&#10095;</span></button>
 </div>
 
 <hr>

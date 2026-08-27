@@ -5,14 +5,15 @@ import { BehaviorSubject, Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class LanguageService {
-  private languageSubject: BehaviorSubject<string> = new BehaviorSubject<string>('en');
+  private languageSubject: BehaviorSubject<string> = new BehaviorSubject<string>(LanguageService.detectInitialLanguage());
   public language$: Observable<string> = this.languageSubject.asObservable();
 
-  constructor() {
-    const savedLanguage = localStorage.getItem('language');
-    if (savedLanguage) {
-      this.languageSubject.next(savedLanguage);
+  private static detectInitialLanguage(): 'pt' | 'en' {
+    const saved = localStorage.getItem('language');
+    if (saved === 'pt' || saved === 'en') {
+      return saved;
     }
+    return navigator.language?.toLowerCase().startsWith('pt') ? 'pt' : 'en';
   }
 
   getCurrentLanguage(): string {

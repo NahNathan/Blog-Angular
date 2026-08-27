@@ -71,5 +71,12 @@ export class SeoService {
   setDefaultSeo(): void {
     this.updateSeoData({});
   }
+
+  updateLanguage(language: string): void {
+    const isPortuguese = language === 'pt';
+    document.documentElement.lang = isPortuguese ? 'pt-BR' : 'en';
+    this.meta.updateTag({ name: 'language', content: isPortuguese ? 'Portuguese' : 'English' });
+    this.meta.updateTag({ property: 'og:locale', content: isPortuguese ? 'pt_BR' : 'en_US' });
+  }
 }
 
