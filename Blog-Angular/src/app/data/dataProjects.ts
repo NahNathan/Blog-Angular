@@ -43,45 +43,45 @@ export const dataProjects=[
     },
     {
         "Id":"7",
+        "photo":"https://i.imgur.com/riQueWM.png",
+        "title":"LSB Manager",
+        "description":"Um sistema Sveltekit, que gerencia por completo todo o negócio da LSB Higienização, uma empresa de Lençóis Paulista focada em limpeza de colchões, estofados e outros. O sistema permite o cadastro de clientes, gastos, serviços diversos cada um com suas peculiaridades. Desenvolvi em parceria com outro desenvolvedor, foquei no frontend mas desenvolvi o sistema de login e autenticação assim como a hospedagem do sistema. Escolhi o Sveltekit por sua simplicidade e rapidez no desenvolvimento, mas ainda com robustez e escalabilidade além de ser um framework que eu já tinha algum conhecimento e gosto de usar.",
+        "link": "https://lsbhigienizacao.com.br/"
+    },    
+    {
+        "Id":"8",
         "photo":"https://i.imgur.com/RMd9Wkx.png",
         "title":"Portal Codiub",
         "description":"Um projeto de destaque durante meu estágio na Codiub, auxiliei em grande parte no desenvolvimento de uma nova interface para o portal principal da empresa. Desenvolvido utilizando um framework PHP interno, o novo site tem uma interface mais intuitiva, responsiva e moderna, contendo todos os serviços e informações necessárias e relevantes para o cidadão.",
         "link": "https://www.codiub.com.br/"
-    },       
+    },  
     {
-        "Id":"8",
+        "Id":"9",
         "photo":"https://i.imgur.com/TciQcbx.png",
         "title":"Minha Experiência na Hackathon IFTM 2024",
         "description":"Enquanto cursava Análise e Desenvolvimento de Sistemas no IFTM Uberaba Parque Tecnológico, participei da Hackathon IFTM 2024, o que foi uma experiência incrível e enriquecedora. O desafio principal por 2 dias diretos foi desenvolver desde o início alguma solução tecnológica prática voltada à área da educação, com o detalhe da obrigatoriedade do uso de Inteligência Artificial em algum aspecto do projeto. Nossa proposta foi o SAPI, ou Sistema de Auxílio Pedagógico Inteligente, um sistema educacional e escolar com foco no uso do professor, com o intuito de auxiliar na criação de diversos componentes de aula, como planos de aulas, provas, questões, atividades e diversos outros. Nossa proposta não teve o sucesso que esperávamos, porém, após a hackathon, participamos do evento Fator S Agita, patrocinado pelo Sebrae. Nele, aprendemos detalhadamente como fazer a idealização e planejamento de um projeto de solução como realizamos. Sem dúvida esta experiência foi extremamente informativo e inovador, e o conhecimento que obti foi imprescindível.",
         "link": "https://iftm.edu.br/hackathon/2024/"
     },
     {
-        "Id":"9",
+        "Id":"10",
         "photo":"https://i.imgur.com/LyogwuP.png",
         "title":"Vassal0",
         "description":"O Vassal0 é um bot desenvolvido em Kotlin utilizando a biblioteca JDA (Java Discord API), criado para automatizar interações em servidores do Discord com comandos personalizados, como rolagens de dados e eventos aleatórios, específicos para Vampiro - A Máscara, um RPG que tenho muito interesse. Escolhi Kotlin por oferecer uma programação moderna, concisa e altamente funcional. Outra parte muito interessante do mesmo projeto foi configurar um celular antigo que eu tenho (moto e5 play) e configurá-lo para ser um mini servidor, e rodar este código durante meus jogos!",
         "link": "https://github.com/NahNathan/Vassal0"
-    },
+    },     
     {
-        "Id":"10",
+        "Id":"11",
         "photo":"https://th.bing.com/th/id/OIP.bDK7QP5XrVzaPTpQZA97wAHaEo?rs=1&pid=ImgDetMain",
         "title":"Gerenciamento de Consultórios Médicos",
         "description":"Este sistema foi feito para a matéria de Programação Orientada a Objetos, do curso de Análise e Desenvolvimento de Sistemas, no IFTM. O software oferece funcionalidades completas de CRUD (Criar, Ler, Atualizar, Deletar) para gerenciar perfis de usuários, médicos, franquias, unidades e consultas médicas. Com um design orientado para diferentes tipos de usuários, como gestores de franquia, médicos e pacientes, o sistema possibilita o gerenciamento eficiente desde o cadastro de pessoal até o controle financeiro de cada unidade, incluindo pagamentos e recebimentos. Ideal para garantir operações fluidas e transparência na gestão de serviços médicos em escala. Este projeto foi feito em dupla e durante todo o semestre conforme aprendíamos sobre os conceitos de POO como abstração, encapsulamento, polimorfismo e herança. Foi desenvolvido completamente em Java.",
         "link": "https://github.com/NahNathan/iftm-consultorio-medico-2023-01"
     },
     {
-        "Id":"11",
+        "Id":"12",
         "photo":"https://i.imgur.com/xg7WO8X.png",
         "title":"Night City Tarot",
         "description":"O Night City Tarot é um aplicativo web que desenvolvi para usar em meus jogos pessoais de Cyberpunk Red, um RPG de mesa. Ele utiliza um baralho de cartas de tarô com tema Cyberpunk para apresentar eventos e resultados críticos aleatórios durante cenários de combate. O aplicativo aciona efeitos únicos das cartas da Arcana Maior quando certas condições de combate ocorrem, como rolar vários seis. Sinte-se livre para dar uma olhada, ou até adicionar algo a mais. Foi baseado no conteúdo oferecido pela R Talsorian Games, disponível gratuitamente no seu site: rtalsoriangames.com",
         "link": "https://nahnathan.github.io/Night_City_Tarot/"
-    },
-    {
-        "Id":"12",
-        "photo":"https://i.imgur.com/IcmxWmd.png",
-        "title":"Portal Acadêmico",
-        "description":"Durante meu estágio na Codiub, colaborei no desenvolvimento de diversas telas para o Portal Acadêmico, um sistema utilizado por centenas de alunos da rede municipal de Uberaba. O portal é uma ferramenta crucial para a gestão acadêmica, permitindo a consulta de informações sobre vagas, matrículas, rematrículas e boletins, além de possibilitar a geração de declarações e outros documentos. Utilizei tecnologias como JSF e o framework PrimeFaces para criar interfaces dinâmicas e amigáveis, assegurando um alto padrão de usabilidade e eficiência no acesso às informações pelos estudantes e administradores.",
-        "link": "https://app3.codiub.com.br/portal-academico/pages/listaesperave/fulllistaVagaesc-home.xhtml"
     },
     {
         "Id":"13",
@@ -92,31 +92,31 @@ export const dataProjects=[
     },
     {
         "Id":"14",
+        "photo":"https://i.imgur.com/IcmxWmd.png",
+        "title":"Portal Acadêmico",
+        "description":"Durante meu estágio na Codiub, colaborei no desenvolvimento de diversas telas para o Portal Acadêmico, um sistema utilizado por centenas de alunos da rede municipal de Uberaba. O portal é uma ferramenta crucial para a gestão acadêmica, permitindo a consulta de informações sobre vagas, matrículas, rematrículas e boletins, além de possibilitar a geração de declarações e outros documentos. Utilizei tecnologias como JSF e o framework PrimeFaces para criar interfaces dinâmicas e amigáveis, assegurando um alto padrão de usabilidade e eficiência no acesso às informações pelos estudantes e administradores.",
+        "link": "https://app3.codiub.com.br/portal-academico/pages/listaesperave/fulllistaVagaesc-home.xhtml"
+    },
+    {
+        "Id":"15",
         "photo":"https://i.imgur.com/7GLZ3wC.png",
         "title":"Jeff Imóveis, gerenciamento de imóveis",
         "description":"O aplicativo Jeff Imóveis foi desenvolvido como parte da avaliação final da disciplina de Programação para Dispositivos Móveis do IFTM, em colaboração com luiz-felippelb. Este sistema permite o cadastro de imóveis, proprietários e inquilinos, oferecendo funcionalidades para visualização e edição desses dados. Além disso, possibilita o aluguel de imóveis aos inquilinos cadastrados, facilitando a gestão de propriedades de forma eficiente e integrada diretamente de dispositivos móveis.",
         "link": "https://github.com/NahNathan/Jeff-Imoveis"
     },
     {
-        "Id":"15",
+        "Id":"16",
         "photo":"https://i.imgur.com/CJ3poXf.png",
         "title":"Rolador de Dados para um RPG brasileiro",
         "description":"Este projeto é um rolador de dados para o RPG brasileiro Bandeira do Elefante e da Arara. Nele é possível não apenas rolar os dados, mas também incluir modificadores para o jogo e também uma dificuldade para os testes. Tentei ao máximo deixar o projeto caracterizado à ambientação do jogo, que se passa em um Brasil na era colonial!",
         "link": "https://nahnathan.github.io/BEA-Roller/"
     },
     {
-        "Id":"16",
+        "Id":"17",
         "photo":"https://i.imgur.com/eVA8b9b.png",
         "title":"SAPI",
         "description":"O Sistema de Auxílio Pedagógico Inteligente (SAPI) foi o projeto desenvolvido pela nossa equipe durante a Hackathon IFTM 2024, com foco em inteligência artificial. A ideia foi refinada com mentorias e workshops promovidos pelo Pré-Acelera, um programa do Sebrae voltado ao fomento de startups e inovação. O SAPI tem como objetivo principal facilitar a rotina dos professores, reduzindo significativamente o tempo necessário para preparar aulas e materiais pedagógicos. O sistema oferece ferramentas para a criação ágil de planos de aula, atividades, provas, cronogramas e outros conteúdos. Além disso, inclui um painel completo de gerenciamento e análise voltado para diretores e supervisores, permitindo uma visão estratégica do desempenho acadêmico e organizacional. Para mais informações ou parcerias, entre em contato pelo e-mail: sapiequipe@gmail.com.",
         "link": "https://iftm.edu.br/hackathon/2024/"
-    },
-    {
-        "Id":"17",
-        "photo":"https://i.imgur.com/QAvFKfI.png",
-        "title":"NatCursos",
-        "description":"Um projeto simples que fiz para estudar aspectos e conceitos do framework Svelte. Sendo apenas o front para um 'mock-up', o projeto é um site que apresenta vários cursos e projetos disponíveis, login e cadastro, favoritar cursos e também cursos concluídos. O objetivo deste projeto é apenas para aprendizado e treinar minhas habilidades com a tecnologia e desenvolvimento.",
-        "link": "https://nat-cursos.vercel.app/"
     },
     {
         "Id":"18",

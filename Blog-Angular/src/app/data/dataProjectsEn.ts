@@ -43,45 +43,45 @@ export const dataProjects=[
     },
     {
         "Id":"7",
+        "photo":"https://i.imgur.com/riQueWM.png",
+        "title":"LSB Manager",
+        "description":"A SvelteKit system that fully manages the entire business of LSB Higienização, a company from Lençóis Paulista focused on cleaning mattresses, upholstery, and more. The system allows the registration of clients, expenses, and several types of services, each one with its own particularities. I developed it in partnership with another developer, focusing on the frontend, but I also built the login and authentication system as well as the system's hosting. I chose SvelteKit for its simplicity and speed in development, while still offering robustness and scalability, and also because it is a framework I already had some knowledge of and enjoy using.",
+        "link": "https://lsbhigienizacao.com.br/"
+    },    
+    {
+        "Id":"8",
         "photo":"https://i.imgur.com/RMd9Wkx.png",
         "title":"Codiub Portal",
         "description":"A standout project during my internship at Codiub, I contributed largely to developing a new interface for the company's main portal. Developed using an internal PHP framework, the new website has a more intuitive, responsive, and modern interface, containing all services and necessary and relevant information for citizens.",
         "link": "https://www.codiub.com.br/"
-    },    
+    },  
     {
-        "Id":"8",
+        "Id":"9",
         "photo":"https://i.imgur.com/TciQcbx.png",
         "title":"My Experience at IFTM Hackathon 2024",
         "description":"While studying Analysis and Systems Development at IFTM Uberaba Parque Tecnológico, I participated in the Hackathon IFTM 2024, which was an amazing and enriching experience. The main challenge for two full days was to develop a practical technological solution aimed at the education sector, with the requirement to incorporate Artificial Intelligence into some aspect of the project. Our proposal was SAPI, or the Intelligent Pedagogical Assistance System, an educational platform designed to support teachers by assisting in the creation of various classroom components such as lesson plans, exams, questions, activities, and more. Although our proposal did not achieve the success we had hoped for, after the hackathon, we participated in the Fator S Agita event, sponsored by Sebrae. There, we learned in detail how to conceptualize and plan a project like the one we developed. Without a doubt, this experience was incredibly informative and innovative, and the knowledge I gained was invaluable.",
         "link": "https://iftm.edu.br/hackathon/2024/"
     },
     {
-        "Id":"9",
+        "Id":"10",
         "photo":"https://i.imgur.com/LyogwuP.png",
         "title":"Vassal0",
         "description":"Vassal0 is a bot developed in Kotlin using the JDA (Java Discord API) library, created to automate interactions in Discord servers with custom commands such as dice rolls and random events specific to Vampire: The Masquerade, an RPG I have great interest in. I chose Kotlin because it offers modern, concise, and highly functional programming. Another very interesting part of this same project was configuring an old cell phone I have (Moto E5 Play) and setting it up to be a mini-server to run this code during my games!",
         "link": "https://github.com/NahNathan/Vassal0"
-    },
+    },     
     {
-        "Id":"10",
+        "Id":"11",
         "photo":"https://th.bing.com/th/id/OIP.bDK7QP5XrVzaPTpQZA97wAHaEo?rs=1&pid=ImgDetMain",
         "title":"Medical Office Management",
         "description":"This system was created for the Object-Oriented Programming course in the Systems Analysis and Development program at IFTM. The software offers complete CRUD (Create, Read, Update, Delete) functionality to manage profiles of users, doctors, franchises, units, and medical appointments. With a design oriented toward different types of users, such as franchise managers, doctors, and patients, the system enables efficient management from staff registration to financial control of each unit, including payments and receipts. Ideal for ensuring smooth operations and transparency in managing medical services at scale. This project was done in pairs throughout the semester as we learned about OOP concepts such as abstraction, encapsulation, polymorphism, and inheritance. It was developed entirely in Java.",
         "link": "https://github.com/NahNathan/iftm-consultorio-medico-2023-01"
     },
     {
-        "Id":"11",
+        "Id":"12",
         "photo":"https://i.imgur.com/xg7WO8X.png",
         "title":"Night City Tarot",
         "description":"Night City Tarot is a web application I developed to use in my personal Cyberpunk Red tabletop RPG sessions. It uses a tarot deck with a Cyberpunk theme to present random critical events and outcomes during combat scenarios. The application triggers unique effects from the Major Arcana cards when certain combat conditions occur, such as rolling multiple sixes. Feel free to take a look, or even add something to it. It was based on content offered by R Talsorian Games, available for free on their site: rtalsoriangames.com",
         "link": "https://nahnathan.github.io/Night_City_Tarot/"
-    },
-    {
-        "Id":"12",
-        "photo":"https://i.imgur.com/IcmxWmd.png",
-        "title":"Academic Portal",
-        "description":"During my internship at Codiub, I collaborated in developing several screens for the Academic Portal, a system used by hundreds of students in Uberaba's municipal network. The portal is a crucial tool for academic management, allowing consultation of information on spots, enrollments, re-enrollments, and report cards, as well as generating statements and other documents. I used technologies such as JSF and the PrimeFaces framework to create dynamic and user-friendly interfaces, ensuring a high standard of usability and efficiency in accessing information for students and administrators.",
-        "link": "https://app3.codiub.com.br/portal-academico/pages/listaesperave/fulllistaVagaesc-home.xhtml"
     },
     {
         "Id":"13",
@@ -92,31 +92,31 @@ export const dataProjects=[
     },
     {
         "Id":"14",
+        "photo":"https://i.imgur.com/IcmxWmd.png",
+        "title":"Academic Portal",
+        "description":"During my internship at Codiub, I collaborated in developing several screens for the Academic Portal, a system used by hundreds of students in Uberaba's municipal network. The portal is a crucial tool for academic management, allowing consultation of information on spots, enrollments, re-enrollments, and report cards, as well as generating statements and other documents. I used technologies such as JSF and the PrimeFaces framework to create dynamic and user-friendly interfaces, ensuring a high standard of usability and efficiency in accessing information for students and administrators.",
+        "link": "https://app3.codiub.com.br/portal-academico/pages/listaesperave/fulllistaVagaesc-home.xhtml"
+    },
+    {
+        "Id":"15",
         "photo":"https://i.imgur.com/7GLZ3wC.png",
         "title":"Jeff Real Estate, property management",
         "description":"The Jeff Real Estate application was developed as part of the final evaluation of the Mobile Device Programming course at IFTM, in collaboration with luiz-felippelb. This system allows registration of properties, owners, and tenants, offering features to view and edit this data. Additionally, it allows renting properties to registered tenants, facilitating efficient management of properties directly from mobile devices.",
         "link": "https://github.com/NahNathan/Jeff-Imoveis"
     },
     {
-        "Id":"15",
+        "Id":"16",
         "photo":"https://i.imgur.com/CJ3poXf.png",
         "title":"Dice Roller for a Brazilian RPG",
         "description":"This project is a dice roller for the Brazilian RPG Bandeira do Elefante e da Arara. In it, you can not only roll dice but also include modifiers for the game, as well as difficulty levels for tests. I tried my best to keep the project characterized according to the game's setting, which takes place in Brazil during the colonial era!",
         "link": "https://nahnathan.github.io/BEA-Roller/"
     },
     {
-        "Id":"16",
+        "Id":"17",
         "photo":"https://i.imgur.com/eVA8b9b.png",
         "title":"SAPI",
         "description":"The Intelligent Pedagogical Assistance System (SAPI) was the project developed by our team during the IFTM 2024 Hackathon, with a focus on artificial intelligence. The idea was refined through mentoring and workshops promoted by Pré-Acelera, a Sebrae program aimed at fostering startups and innovation. SAPI aims to streamline teachers’ routines, significantly reducing the time required to prepare classes and pedagogical materials. The system offers tools for quick creation of lesson plans, activities, tests, schedules, and other content. It also includes a complete management and analysis panel for principals and supervisors, providing a strategic view of academic and organizational performance. For more information or partnerships, contact us at: sapiequipe@gmail.com.",
         "link": "https://iftm.edu.br/hackathon/2024/"
-    },
-    {
-        "Id":"17",
-        "photo":"https://i.imgur.com/QAvFKfI.png",
-        "title":"NatCursos",
-        "description":"A simple project I made to study aspects and concepts of the Svelte framework. Being just the front-end for a ‘mock-up’, the project is a site that displays various available courses and projects, login and registration, favoriting courses, and also completed courses. The aim of this project is solely for learning and practicing my skills with the technology and development.",
-        "link": "https://nat-cursos.vercel.app/"
     },
     {
         "Id":"18",
