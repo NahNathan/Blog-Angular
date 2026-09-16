@@ -1,63 +1,63 @@
 export const dataProjects=[
     {
         "Id":"1",
-        "photo":"https://i.imgur.com/Vc3N6fx.png",
+        "photo":"https://files.catbox.moe/9jhzdq.png",
         "title":"CodeProjectz",
         "description":"Este projeto foi feito em grupo para o curso de ADS no quinto período. Ele tem o objetivo de ser uma plataforma web de cursos e projetos para os alunos do IFTM, onde poderão se cadastrar, postar e assistir outros conteúdos criados por outros alunos e professores. Gostei muito de fazer este projeto e aprendi muito sobre vários aspectos do desenvolvimento ágil, além do conhecimento técnico. Fiquei responsável primariamente pelo frontend do projeto, feito em React. Foi integral para o projeto entender conceitos como consumo de APIs e requisições HTTP. Também foi integrado ao projeto uma IA, que resume o artigo e também consegue responder perguntas sobre o artigo. Essa IA foi uma integração com a API do Gemini. Fui responsável pelo front-end, o design das telas e integração com os dados do back-end. Este projeto foi feito com Augusto-Catejon, c-Alvinn e DevGustavus",
         "link": "https://github.com/c-Alvinn/CodeProjectz"
     },
     {
         "Id":"2",
-        "photo":"https://i.imgur.com/KVPyN4h.png",
+        "photo":"https://files.catbox.moe/8itzdn.png",
         "title":"Proflix",
         "description":"Sistema escolar completo que desenvolvi na Codesquare, o Proflix é uma plataforma educacional escolar que oferece, criação de relatórios, diário de classe, calendário escolar, cadastro completo de dados e matrícula e diversas outras funcionalidades essenciais para uso escolar. O sistema foi projetado para uso por professores, diretores, responsáveis e secretários, e outros funcionários. O sistema também oferece uma integração com material gerado e otimizado por IA, onde o professor pode gerar provas, questões, atividades, correção de provas, plano de aula, conteúdo explicativo e diversas outras opções . Desenvolvi completamente o front-end utilizando Next.js e integrei com o back-end em Node.js, utilizando as melhores técnicas e boas práticas do framework e SSR.",
         "link": "https://codesquare.com.br/"
     },
     {
         "Id":"3",
-        "photo":"https://i.imgur.com/vkvXH1R.png",
+        "photo":"https://files.catbox.moe/0awlt8.png",
         "title":"Sistema de Gerenciamento THE Toys",
         "description":"Sistema que desenvolvi para uma empresa de enchimento de pelúcias, o Pipeline THE foi criado para organização e gerenciamento completo de todo o workflow da empresa. O sistema tem funcionalidades para controle de funcionários, produção, estoque, criação de relatório, resumo de produção por usuário, e todas as etapas do processo de fabricação, enchimento e transporte. Foi desenvolvido full stack utilizando SvelteKit, meu framework preferido para desenvolvimento por sua simplicidade e robustez no desenvolvimento, sempre considerando eficiência no código e experiência do usuário.",
         "link": "https://github.com/NahNathan/"
     },
     {
         "Id":"4",
-        "photo":"https://i.imgur.com/wRuMVRa.png",
+        "photo":"https://files.catbox.moe/5mhk7f.png",
         "title":"Sistema Consulta Sepultados",
         "description":"Durante meu estágio na Codiub, participei do desenvolvimento e da modernização do sistema de consulta de sepultados da cidade de Uberaba. O sistema anterior, implementado em uma versão antiga e desatualizada de PHP, apresentava limitações técnicas e dificuldades de manutenção, o que exigiu sua recriação do zero. Para o novo sistema, optamos pelo Angular 15 devido à sua robustez, confiabilidade e recursos avançados, garantindo uma interface moderna, responsiva e intuitiva. Minha contribuição incluiu a implementação de funcionalidades essenciais e a criação de uma experiência otimizada para os usuários finais.",
         "link": "https://app3.codiub.com.br/consulta_sepultados"
     },
     {
         "Id":"5",
-        "photo":"https://i.imgur.com/XPCxtgo.png",
+        "photo":"https://files.catbox.moe/pfkeah.png",
         "title":"Smart Face Ponto Facial",
         "description":"Smart Face Ponto Facial é um sistema desenvolvido pela Criativa IA, startup parceira Google, com foco em gerenciar e registrar as batidas de ponto de funcionários em um cenário profissional, utilizando reconhecimento facial pelo celular. Meu principal foco neste projeto foi no sistema web, onde o RH da empresa tem controle e gerenciamento de várias informações, assim como uma IA para auxílio na análise emocional dos funcionários.",
         "link": "https://smartface.criativa.ai/"
     },
     {
         "Id":"6",
-        "photo":"https://i.imgur.com/vSLZkQm.png",
+        "photo":"https://files.catbox.moe/svvb2u.png",
         "title":"CafTracker",
         "description":"CafTracker é um aplicativo Android que desenvolvi para registrar e acompanhar o consumo de cafeína de forma simples e totalmente offline. O app permite cadastrar bebidas com seus valores de cafeína, registrar consumos informando quantidade e horário, e visualizar resumos diários e semanais. Todo o armazenamento é feito localmente com SQLite, sem uso de backend ou autenticação. A aplicação foi desenvolvida em Kotlin, utilizando Jetpack Compose para a interface e uma arquitetura em camadas para separar lógica de negócio, dados e UI. O projeto tem foco em aprendizado, organização de código e uso de práticas modernas do ecossistema Android.",
         "link": "https://github.com/NahNathan/CafTracker"
     },
     {
         "Id":"7",
-        "photo":"https://i.imgur.com/riQueWM.png",
+        "photo":"https://files.catbox.moe/8zumpt.png",
         "title":"LSB Manager",
         "description":"Um sistema Sveltekit, que gerencia por completo todo o negócio da LSB Higienização, uma empresa de Lençóis Paulista focada em limpeza de colchões, estofados e outros. O sistema permite o cadastro de clientes, gastos, serviços diversos cada um com suas peculiaridades. Desenvolvi em parceria com outro desenvolvedor, foquei no frontend mas desenvolvi o sistema de login e autenticação assim como a hospedagem do sistema. Escolhi o Sveltekit por sua simplicidade e rapidez no desenvolvimento, mas ainda com robustez e escalabilidade além de ser um framework que eu já tinha algum conhecimento e gosto de usar.",
         "link": "https://lsbhigienizacao.com.br/"
     },    
     {
         "Id":"8",
-        "photo":"https://i.imgur.com/RMd9Wkx.png",
+        "photo":"https://files.catbox.moe/9rucv5.png",
         "title":"Portal Codiub",
         "description":"Um projeto de destaque durante meu estágio na Codiub, auxiliei em grande parte no desenvolvimento de uma nova interface para o portal principal da empresa. Desenvolvido utilizando um framework PHP interno, o novo site tem uma interface mais intuitiva, responsiva e moderna, contendo todos os serviços e informações necessárias e relevantes para o cidadão.",
         "link": "https://www.codiub.com.br/"
     },  
     {
         "Id":"9",
-        "photo":"https://i.imgur.com/TciQcbx.png",
+        "photo":"https://files.catbox.moe/jvedu2.png",
         "title":"Minha Experiência na Hackathon IFTM 2024",
         "description":"Enquanto cursava Análise e Desenvolvimento de Sistemas no IFTM Uberaba Parque Tecnológico, participei da Hackathon IFTM 2024, o que foi uma experiência incrível e enriquecedora. O desafio principal por 2 dias diretos foi desenvolver desde o início alguma solução tecnológica prática voltada à área da educação, com o detalhe da obrigatoriedade do uso de Inteligência Artificial em algum aspecto do projeto. Nossa proposta foi o SAPI, ou Sistema de Auxílio Pedagógico Inteligente, um sistema educacional e escolar com foco no uso do professor, com o intuito de auxiliar na criação de diversos componentes de aula, como planos de aulas, provas, questões, atividades e diversos outros. Nossa proposta não teve o sucesso que esperávamos, porém, após a hackathon, participamos do evento Fator S Agita, patrocinado pelo Sebrae. Nele, aprendemos detalhadamente como fazer a idealização e planejamento de um projeto de solução como realizamos. Sem dúvida esta experiência foi extremamente informativo e inovador, e o conhecimento que obti foi imprescindível.",
         "link": "https://iftm.edu.br/hackathon/2024/"
@@ -71,70 +71,70 @@ export const dataProjects=[
     },     
     {
         "Id":"11",
-        "photo":"https://th.bing.com/th/id/OIP.bDK7QP5XrVzaPTpQZA97wAHaEo?rs=1&pid=ImgDetMain",
+        "photo":"https://files.catbox.moe/6xgu69.png",
         "title":"Gerenciamento de Consultórios Médicos",
         "description":"Este sistema foi feito para a matéria de Programação Orientada a Objetos, do curso de Análise e Desenvolvimento de Sistemas, no IFTM. O software oferece funcionalidades completas de CRUD (Criar, Ler, Atualizar, Deletar) para gerenciar perfis de usuários, médicos, franquias, unidades e consultas médicas. Com um design orientado para diferentes tipos de usuários, como gestores de franquia, médicos e pacientes, o sistema possibilita o gerenciamento eficiente desde o cadastro de pessoal até o controle financeiro de cada unidade, incluindo pagamentos e recebimentos. Ideal para garantir operações fluidas e transparência na gestão de serviços médicos em escala. Este projeto foi feito em dupla e durante todo o semestre conforme aprendíamos sobre os conceitos de POO como abstração, encapsulamento, polimorfismo e herança. Foi desenvolvido completamente em Java.",
         "link": "https://github.com/NahNathan/iftm-consultorio-medico-2023-01"
     },
     {
         "Id":"12",
-        "photo":"https://i.imgur.com/xg7WO8X.png",
+        "photo":"https://files.catbox.moe/ryh91w.png",
         "title":"Night City Tarot",
         "description":"O Night City Tarot é um aplicativo web que desenvolvi para usar em meus jogos pessoais de Cyberpunk Red, um RPG de mesa. Ele utiliza um baralho de cartas de tarô com tema Cyberpunk para apresentar eventos e resultados críticos aleatórios durante cenários de combate. O aplicativo aciona efeitos únicos das cartas da Arcana Maior quando certas condições de combate ocorrem, como rolar vários seis. Sinte-se livre para dar uma olhada, ou até adicionar algo a mais. Foi baseado no conteúdo oferecido pela R Talsorian Games, disponível gratuitamente no seu site: rtalsoriangames.com",
         "link": "https://nahnathan.github.io/Night_City_Tarot/"
     },
     {
         "Id":"13",
-        "photo":"https://raw.githubusercontent.com/NahNathan/Emprestimo-de-Chaves/main/Doc/README_assets/insert_pg.png",
+        "photo":"https://files.catbox.moe/o9c3q4.png",
         "title":"Sistema de Empréstimo de Chaves",
         "description":"Este projeto foi desenvolvido para a disciplina Desenvolvimento de Aplicações Web 1 e consiste em um programa web completo para o gerenciamento de empréstimos de chaves. Utilizamos Spring Boot (Java) e MongoDB para o back-end, e Svelte para o front-end, criando uma interface limpa e funcional. O software registra todas as atividades de empréstimo e devolução de chaves, permitindo um controle eficiente e seguro. Através deste projeto, aprimoramos nossas habilidades em integração de uma API REST, arquitetura de banco de dados e UI/UX, além de expandir nosso conhecimento em bancos de dados NoSQL. Foi desenvolvido em grupo com M4teusAlves, DevGustavus e GabrielaSRodrigues",
         "link": "https://github.com/NahNathan/Emprestimo-de-Chaves"
     },
     {
         "Id":"14",
-        "photo":"https://i.imgur.com/IcmxWmd.png",
+        "photo":"https://files.catbox.moe/f2ux1n.png",
         "title":"Portal Acadêmico",
         "description":"Durante meu estágio na Codiub, colaborei no desenvolvimento de diversas telas para o Portal Acadêmico, um sistema utilizado por centenas de alunos da rede municipal de Uberaba. O portal é uma ferramenta crucial para a gestão acadêmica, permitindo a consulta de informações sobre vagas, matrículas, rematrículas e boletins, além de possibilitar a geração de declarações e outros documentos. Utilizei tecnologias como JSF e o framework PrimeFaces para criar interfaces dinâmicas e amigáveis, assegurando um alto padrão de usabilidade e eficiência no acesso às informações pelos estudantes e administradores.",
         "link": "https://app3.codiub.com.br/portal-academico/pages/listaesperave/fulllistaVagaesc-home.xhtml"
     },
     {
         "Id":"15",
-        "photo":"https://i.imgur.com/7GLZ3wC.png",
+        "photo":"https://files.catbox.moe/1q56xm.png",
         "title":"Jeff Imóveis, gerenciamento de imóveis",
         "description":"O aplicativo Jeff Imóveis foi desenvolvido como parte da avaliação final da disciplina de Programação para Dispositivos Móveis do IFTM, em colaboração com luiz-felippelb. Este sistema permite o cadastro de imóveis, proprietários e inquilinos, oferecendo funcionalidades para visualização e edição desses dados. Além disso, possibilita o aluguel de imóveis aos inquilinos cadastrados, facilitando a gestão de propriedades de forma eficiente e integrada diretamente de dispositivos móveis.",
         "link": "https://github.com/NahNathan/Jeff-Imoveis"
     },
     {
         "Id":"16",
-        "photo":"https://i.imgur.com/CJ3poXf.png",
+        "photo":"https://files.catbox.moe/gi2t9u.png",
         "title":"Rolador de Dados para um RPG brasileiro",
         "description":"Este projeto é um rolador de dados para o RPG brasileiro Bandeira do Elefante e da Arara. Nele é possível não apenas rolar os dados, mas também incluir modificadores para o jogo e também uma dificuldade para os testes. Tentei ao máximo deixar o projeto caracterizado à ambientação do jogo, que se passa em um Brasil na era colonial!",
         "link": "https://nahnathan.github.io/BEA-Roller/"
     },
     {
         "Id":"17",
-        "photo":"https://i.imgur.com/eVA8b9b.png",
+        "photo":"https://files.catbox.moe/9wro2g.png",
         "title":"SAPI",
         "description":"O Sistema de Auxílio Pedagógico Inteligente (SAPI) foi o projeto desenvolvido pela nossa equipe durante a Hackathon IFTM 2024, com foco em inteligência artificial. A ideia foi refinada com mentorias e workshops promovidos pelo Pré-Acelera, um programa do Sebrae voltado ao fomento de startups e inovação. O SAPI tem como objetivo principal facilitar a rotina dos professores, reduzindo significativamente o tempo necessário para preparar aulas e materiais pedagógicos. O sistema oferece ferramentas para a criação ágil de planos de aula, atividades, provas, cronogramas e outros conteúdos. Além disso, inclui um painel completo de gerenciamento e análise voltado para diretores e supervisores, permitindo uma visão estratégica do desempenho acadêmico e organizacional. Para mais informações ou parcerias, entre em contato pelo e-mail: sapiequipe@gmail.com.",
         "link": "https://iftm.edu.br/hackathon/2024/"
     },
     {
         "Id":"18",
-        "photo":"https://i.imgur.com/5eWzXu3.png",
+        "photo":"https://files.catbox.moe/7wfh4d.png",
         "title":"Campo Minado Mobile em Kotlin",
         "description":"Este projeto foi desenvolvido para a matéria de Extensão. Consiste em um jogo simples de campo minado feito usando Kotlin e as telas foram feitas usando XML. Ao final da matéria o projeto foi apresentado para uma turma de alunos do ensino fundamental para que criassem um interesse pela área de programação e pelo IFTM. Foi feito em dupla com Augusto-Castejon",
         "link": "https://github.com/NahNathan/Campo-Minado-Mobile"
     },
     {
         "Id":"19",
-        "photo":"https://i.imgur.com/9sfBSpH.png",
+        "photo":"https://files.catbox.moe/qc0q0v.png",
         "title":"Pokédex",
         "description":"Um projeto clássico para vários desenvolvedores. Este projeto foi desenvolvido em Angular e seu principal objetivo foi aprender a utilizar e consumir APIs externas. O projeto consome a PokémonAPI, e mostra dados do pokémon, assim como possibilitar pesquisar por um pokémon específico.",
         "link": "https://github.com/NahNathan/Pokedex"
     },
     {
         "Id":"20",
-        "photo":"https://i.imgur.com/wcv5RZK.png",
+        "photo":"https://files.catbox.moe/mrg09r.png",
         "title":"Jogo da Velha",
         "description":"Um dos meus primeiros projetos em Angular, um simples jogo da velha que explora vários conceitos interessantes e importantes do framework.",
         "link": "https://github.com/NahNathan/Jogo_Da_Velha_Angular"

@@ -1,20 +1,18 @@
 export const dataTechs = [
   {
-    title: "Angular",
-    description: "Experience in developing interactive and responsive web applications, using the wide variety of tools in the Angular ecosystem.",
-    image: "https://angular.io/assets/images/logos/angular/angular.svg"
-  },
-
-  {
     title: "Kotlin",
     description: "Development of modern and concise solutions with Kotlin, standing out in backend, API integration, and mobile development.",
     image: "https://icon.icepanel.io/Technology/svg/Kotlin.svg"
   },
-
   {
     title: "Svelte",
     description: "Personally my favorite web development framework for personal projects due to its simplicity and speed, especially when used with its fullstack framework SvelteKit.",
     image: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg"
+  },
+  {
+    title: "Angular",
+    description: "Experience in developing interactive and responsive web applications, using the wide variety of tools in the Angular ecosystem.",
+    image: "https://angular.io/assets/images/logos/angular/angular.svg"
   },
   {
     title: "Next.js",

@@ -1,11 +1,5 @@
 export const dataTechs = [
   {
-    title: "Angular",
-    description: "Experiência no desenvolvimento de aplicações web interativas e responsivas, utilizando a vasta variedade de ferramentas do ecosistema Angular.",
-    image: "https://angular.io/assets/images/logos/angular/angular.svg"
-  },
-
-  {
     title: "Kotlin",
     description: "Desenvolvimento de soluções modernas e concisas com Kotlin, destacando-se em backend, integração com APIs e desenvolvimento mobile",
     image: "https://icon.icepanel.io/Technology/svg/Kotlin.svg"
@@ -15,6 +9,11 @@ export const dataTechs = [
     title: "Svelte",
     description: "Pessoalmente meu framework preferido de desenvolvimento web para projetos pessoais devido à sua simplicidade e rapidez, especialmente quando usado com seu framework fullstack SvelteKit.",
     image: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg"
+  },
+  {
+    title: "Angular",
+    description: "Experiência no desenvolvimento de aplicações web interativas e responsivas, utilizando a vasta variedade de ferramentas do ecosistema Angular.",
+    image: "https://angular.io/assets/images/logos/angular/angular.svg"
   },
   {
     title: "Next.js",
